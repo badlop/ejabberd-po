@@ -1,57 +1,61 @@
-# translation of es.po to
-# Badlop <badlop@process-one.net>, 2009.
+# translation of tr.po to Turkish
+# Doruk Fisek <dfisek@ozguryazilim.com.tr>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: es\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-01-11 21:04+0100\n"
-"Last-Translator: Badlop <badlop@process-one.net>\n"
-"Language-Team: \n"
-"Language: es\n"
+"Project-Id-Version: tr\n"
+"PO-Revision-Date: 2012-04-17 11:18+0300\n"
+"Last-Translator: Doruk Fisek <dfisek@ozguryazilim.com.tr>\n"
+"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Language: Spanish (castellano)\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Language: Turkish (türkçe)\n"
+"X-Generator: KBabel 1.11.4\n"
 "X-Poedit-Basepath: ../../src\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: src/mod_vcard.erl:462
+#, fuzzy
 msgid " (Add * to the end of field to match substring)"
-msgstr " (Añade * al final del campo para buscar subcadenas)"
+msgstr ""
+"Eşleşen jabber kullanıcılarını aramak için formu doldurunuz (Alt dizgi "
+"eşlemek için alanın sonuna * ekleyin)"
 
 #: src/mod_muc_log.erl:420 src/mod_muc_log.erl:592
 msgid " has set the subject to: "
-msgstr " ha puesto el asunto: "
+msgstr " konuyu değiştirdi: "
 
 #: src/mod_muc_admin.erl:532
+#, fuzzy
 msgid "# participants"
-msgstr "# participantes"
+msgstr "Kullanıcılar öntanımlı olarak katılımcı olsun"
 
 #: src/mod_shared_roster.erl:1047
 msgid "'Displayed groups' not added (they do not exist!): "
-msgstr "'Mostrados' que no han sido añadidos (¡no existen!): "
+msgstr ""
 
 #: deps/xmpp/src/muc_register.erl:502
 msgid "A Web Page"
-msgstr "Una página web"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1561
 #: deps/xmpp/src/pubsub_meta_data.erl:672
+#, fuzzy
 msgid "A description of the node"
-msgstr "Una descripción del nodo"
+msgstr "Düğüm için dostane bir isim"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1985
 msgid "A friendly name for the node"
-msgstr "Un nombre sencillo para el nodo"
+msgstr "Düğüm için dostane bir isim"
 
 #: src/mod_muc_room.erl:2157
 msgid "A password is required to enter this room"
-msgstr "(Añade * al final del campo para buscar subcadenas)"
+msgstr "Bu odaya girmek için parola gerekiyor"
 
 #: src/ejabberd_oauth.erl:519
 msgid "Accept"
-msgstr "Aceptar"
+msgstr ""
 
 #: src/ejabberd_service.erl:232 src/mod_configure.erl:186
 #: src/mod_configure.erl:303 src/mod_configure.erl:429
@@ -66,118 +70,122 @@ msgstr "Aceptar"
 #: src/mod_announce.erl:844 src/mod_stun_disco.erl:503
 #: src/mod_http_upload.erl:799
 msgid "Access denied by service policy"
-msgstr "Acceso denegado por la política del servicio"
+msgstr "Servis politikası gereği erişim engellendi"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:833
+#, fuzzy
 msgid "Access model"
-msgstr "Modelo de Acceso"
+msgstr "Erişim Kuralları"
 
 #: deps/xmpp/src/pubsub_publish_options.erl:295
 msgid "Access model of authorize"
-msgstr "Modelo de acceso de Autorizar"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_publish_options.erl:299
 msgid "Access model of open"
-msgstr "Modelo de acceso de Abierto"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_publish_options.erl:303
 msgid "Access model of presence"
-msgstr "Modelo de acceso de Presencia"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_publish_options.erl:307
 msgid "Access model of roster"
-msgstr "Modelo de acceso de Roster"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_publish_options.erl:311
+#, fuzzy
 msgid "Access model of whitelist"
-msgstr "Modelo de acceso de Lista Blanca"
+msgstr "Erişim kontrol listeleri (ACL)"
 
 #: src/mod_register_web.erl:609
+#, fuzzy
 msgid "Account doesn't exist"
-msgstr "La cuenta no existe"
+msgstr "Konferans odası bulunamadı"
 
 #: src/mod_configure.erl:1514
 msgid "Action on user"
-msgstr "Acción en el usuario"
+msgstr "Kullanıcıya uygulanacak eylem"
 
 #: src/mod_roster.erl:1071
 msgid "Add Jabber ID"
-msgstr "Añadir Jabber ID"
+msgstr "Jabber ID'si Ekle"
 
 #: src/mod_shared_roster.erl:929
 msgid "Add New"
-msgstr "Añadir nuevo"
+msgstr "Yeni Ekle"
 
 #: src/mod_configure.erl:161 src/mod_configure.erl:505
 #: src/mod_configure.erl:991 src/ejabberd_web_admin.erl:666
 msgid "Add User"
-msgstr "Añadir usuario"
+msgstr "Kullanıcı Ekle"
 
 #: src/ejabberd_web_admin.erl:397 src/ejabberd_web_admin.erl:406
 msgid "Administration"
-msgstr "Administración"
+msgstr "Yönetim"
 
 #: src/mod_configure.erl:1509
 msgid "Administration of "
-msgstr "Administración de "
+msgstr "Yönetim : "
 
 #: src/mod_muc_room.erl:2801
 msgid "Administrator privileges required"
-msgstr "Se necesita privilegios de administrador"
+msgstr "Yönetim yetkileri gerekli"
 
 #: src/mod_configure.erl:495
 msgid "All Users"
-msgstr "Todos los usuarios"
+msgstr "Tüm Kullanıcılar"
 
 #: src/ejabberd_web_admin.erl:495
 msgid "All activity"
-msgstr "Toda la actividad"
+msgstr "Tüm aktivite"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1556
+#, fuzzy
 msgid "Allow subscription"
-msgstr "Permitir la subscripción"
+msgstr "Üyelik"
 
 #: deps/xmpp/src/pubsub_subscribe_authorization.erl:343
 msgid "Allow this Jabber ID to subscribe to this pubsub node?"
-msgstr "¿Deseas permitir a este Jabber ID que se subscriba a este nodo PubSub?"
+msgstr "Bu Jabber ID bu pubsub düğümüne üye olmasına izin verilsin mi?"
 
 #: deps/xmpp/src/muc_register.erl:417
 msgid "Allow this person to register with the room?"
-msgstr "¿Permitir a esta persona que se registre en la sala?"
+msgstr ""
 
 #: src/mod_muc_log.erl:813 deps/xmpp/src/muc_roomconfig.erl:1654
 msgid "Allow users to change the subject"
-msgstr "Permitir a los usuarios cambiar el asunto"
+msgstr "Kullanıcıların konu değiştirmesine izin ver"
 
 #: src/mod_muc_log.erl:819 deps/xmpp/src/muc_roomconfig.erl:1623
 msgid "Allow users to query other users"
-msgstr "Permitir a los usuarios consultar a otros usuarios"
+msgstr "Kullanıcıların diğer kullanıcıları sorgulamalarına izin ver"
 
 #: src/mod_muc_log.erl:821 deps/xmpp/src/muc_roomconfig.erl:1638
 msgid "Allow users to send invites"
-msgstr "Permitir a los usuarios enviar invitaciones"
+msgstr "Kullanıcıların davetiye göndermelerine izin ver"
 
 #: src/mod_muc_log.erl:815 deps/xmpp/src/muc_roomconfig.erl:1456
 msgid "Allow users to send private messages"
-msgstr "Permitir a los usuarios enviar mensajes privados"
+msgstr "Kullanıcıların özel mesaj göndermelerine izin ver"
 
 #: src/mod_muc_log.erl:824 deps/xmpp/src/muc_roomconfig.erl:1526
 msgid "Allow visitors to change nickname"
-msgstr "Permitir a los visitantes cambiarse el apodo"
+msgstr "Ziyaretçilerin takma isim değiştirmelerine izin ver"
 
 #: src/mod_muc_log.erl:817 deps/xmpp/src/muc_roomconfig.erl:1491
 msgid "Allow visitors to send private messages to"
-msgstr "Permitir a los visitantes enviar mensajes privados a"
+msgstr "Ziyaretçilerin özel mesaj göndermelerine izin ver"
 
 #: src/mod_muc_log.erl:826 deps/xmpp/src/muc_roomconfig.erl:1507
 msgid "Allow visitors to send status text in presence updates"
 msgstr ""
-"Permitir a los visitantes enviar texto de estado en las actualizaciones de "
-"presencia"
+"Ziyaretçilerin varlık (presence) güncellemelerinde durum metni "
+"göndermelerine izin ver"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1542
 msgid "Allow visitors to send voice requests"
-msgstr "Permitir a los visitantes enviar peticiones de voz"
+msgstr "Ziyaretçilerin ses isteğine göndermelerine izin ver"
 
 #: deps/xmpp/src/muc_roominfo.erl:811
 msgid ""
@@ -185,60 +193,56 @@ msgid ""
 "LDAP Distinguished Name according to an implementation-specific or "
 "deployment-specific definition of a group."
 msgstr ""
-"Un grupo LDAP asociado que define la membresía a la sala; este debería ser "
-"un Nombre Distinguido de LDAP, de acuerdo con una definición de grupo "
-"específica de la implementación o de esta instalación."
 
 #: src/mod_announce.erl:607
 msgid "Announcements"
-msgstr "Anuncios"
+msgstr "Duyurular"
 
 #: deps/xmpp/src/captcha_form.erl:762
 msgid "Answer associated with a picture"
-msgstr "Respuesta asociada con una imagen"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:866
 msgid "Answer associated with a video"
-msgstr "Respuesta asociada con un video"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:836
 msgid "Answer associated with speech"
-msgstr "Respuesta asociada con un audio"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:791
 msgid "Answer to a question"
-msgstr "Responde a una pregunta"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:728 deps/xmpp/src/muc_roomconfig.erl:1418
 #: deps/xmpp/src/muc_roomconfig.erl:1478 deps/xmpp/src/muc_roomconfig.erl:1981
+#, fuzzy
 msgid "Anyone"
-msgstr "Cualquiera"
+msgstr "herkes"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1327
 #: deps/xmpp/src/pubsub_meta_data.erl:817
 msgid ""
 "Anyone in the specified roster group(s) may subscribe and retrieve items"
 msgstr ""
-"Cualquiera que esté en el grupo(s) de contactos especificado puede "
-"suscribirse y recibir elementos"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1381
 msgid "Anyone may associate leaf nodes with the collection"
-msgstr "Cualquiera puede asociar nodos hoja con la colección"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1850
 #: deps/xmpp/src/pubsub_meta_data.erl:855
 msgid "Anyone may publish"
-msgstr "Cualquiera puede publicar"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1317
 #: deps/xmpp/src/pubsub_meta_data.erl:807
 msgid "Anyone may subscribe and retrieve items"
-msgstr "Cualquiera puede suscribirse y recibir elementos"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:731 deps/xmpp/src/muc_roomconfig.erl:1421
 msgid "Anyone with Voice"
-msgstr "Cualquiera con Voz"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1321
 #: deps/xmpp/src/pubsub_meta_data.erl:811
@@ -246,245 +250,246 @@ msgid ""
 "Anyone with a presence subscription of both or from may subscribe and "
 "retrieve items"
 msgstr ""
-"Cualquiera con una suscripción a la presencia de 'ambos' o 'de' puede "
-"suscribirse y recibir elementos"
 
 #: src/mod_muc_log.erl:481
 msgid "April"
-msgstr "Abril"
+msgstr "Nisan"
 
 #: src/mod_mix_pam.erl:306
 msgid "Attribute 'channel' is required for this request"
-msgstr "El atributo 'channel' es necesario para esta petición"
+msgstr ""
 
 #: src/mod_mix.erl:148
 msgid "Attribute 'id' is mandatory for MIX messages"
-msgstr "El atributo 'id' es necesario para mensajes MIX"
+msgstr ""
 
 #: src/mod_pubsub.erl:1173
 msgid "Attribute 'jid' is not allowed here"
-msgstr "El atributo 'jid' no está permitido aqui"
+msgstr ""
 
 #: src/mod_pubsub.erl:1176
 msgid "Attribute 'node' is not allowed here"
-msgstr "El atributo 'node' no está permitido aqui"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:731
 msgid "Attribute 'to' of stanza that triggered challenge"
-msgstr "Atributo 'to' del paquete que disparó la comprobación"
+msgstr ""
 
 #: src/mod_muc_log.erl:485
 msgid "August"
-msgstr "Agosto"
+msgstr "Ağustos"
 
 #: src/mod_pubsub.erl:1918
 msgid "Automatic node creation is not enabled"
-msgstr "La creación automática de nodo no está activada"
+msgstr ""
 
 #: src/mod_configure.erl:143 src/mod_configure.erl:582
 #: src/ejabberd_web_admin.erl:1100 src/ejabberd_web_admin.erl:1807
 msgid "Backup"
-msgstr "Guardar copia de seguridad"
+msgstr "Yedekle"
 
 #: src/mod_configure.erl:566
 msgid "Backup Management"
-msgstr "Gestión de copia de seguridad"
+msgstr "Yedek Yönetimi"
 
 #: src/ejabberd_web_admin.erl:1206
+#, fuzzy
 msgid "Backup of ~p"
-msgstr "Copia de seguridad de ~p"
+msgstr "Yedek : "
 
 #: src/mod_configure.erl:857
 msgid "Backup to File at "
-msgstr "Guardar copia de seguridad en fichero en "
+msgstr "Dosyaya Yedekle : "
 
 #: src/ejabberd_web_admin.erl:644 src/ejabberd_web_admin.erl:938
 #: src/ejabberd_web_admin.erl:1094 src/mod_roster.erl:1061
 #: src/mod_shared_roster.erl:935 src/mod_shared_roster.erl:1048
 msgid "Bad format"
-msgstr "Mal formato"
+msgstr "Kötü biçem"
 
 #: src/mod_vcard_mnesia.erl:105 src/mod_vcard_mnesia.erl:119
 #: src/mod_vcard_sql.erl:162 src/mod_vcard_sql.erl:176
 #: src/mod_vcard_ldap.erl:332 src/mod_vcard_ldap.erl:345
 msgid "Birthday"
-msgstr "Cumpleaños"
+msgstr "Doğumgünü"
 
 #: src/mod_legacy_auth.erl:117
 msgid "Both the username and the resource are required"
-msgstr "Se requiere tanto el nombre de usuario como el recurso"
+msgstr ""
 
 #: src/mod_proxy65_service.erl:237
 msgid "Bytestream already activated"
-msgstr "Bytestream ya está activado"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:910
 msgid "CAPTCHA web page"
-msgstr "Página web de CAPTCHA"
+msgstr "CAPTCHA web sayfası"
 
 #: src/ejabberd_web_admin.erl:1368
 msgid "CPU Time:"
-msgstr "Tiempo consumido de CPU:"
+msgstr "İşlemci Zamanı:"
 
 #: src/mod_privacy.erl:322
 msgid "Cannot remove active list"
-msgstr "No se puede borrar la lista activa"
+msgstr ""
 
 #: src/mod_privacy.erl:329
 msgid "Cannot remove default list"
-msgstr "No se puede borrar la lista por defecto"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:715
 msgid "Challenge ID"
-msgstr "ID de la comprobación"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:912 src/mod_register_web.erl:216
 #: src/mod_register_web.erl:389 src/mod_register_web.erl:397
 #: src/mod_register_web.erl:422
 msgid "Change Password"
-msgstr "Cambiar contraseña"
+msgstr "Parola Değiştir"
 
 #: src/mod_configure.erl:169 src/mod_configure.erl:512
 #: src/mod_configure.erl:1038
 msgid "Change User Password"
-msgstr "Cambiar contraseña de usuario"
+msgstr "Kullanıcı Parolasını Değiştir"
 
 #: src/mod_register.erl:308
+#, fuzzy
 msgid "Changing password is not allowed"
-msgstr "No está permitido cambiar la contraseña"
+msgstr "İzin verilmeyen karakterler:"
 
 #: src/mod_muc_room.erl:3060
+#, fuzzy
 msgid "Changing role/affiliation is not allowed"
-msgstr "No está permitido cambiar el rol/afiliación"
+msgstr "İzin verilmeyen karakterler:"
 
 #: src/mod_mix.erl:657
 msgid "Channel already exists"
-msgstr "El canal ya existe"
+msgstr ""
 
 #: src/mod_mix.erl:662
+#, fuzzy
 msgid "Channel does not exist"
-msgstr "El canal no existe"
+msgstr "Konferans odası bulunamadı"
 
 #: src/mod_mix.erl:97
 msgid "Channels"
-msgstr "Canales"
+msgstr ""
 
 #: src/mod_register_web.erl:271
 msgid "Characters not allowed:"
-msgstr "Caracteres no permitidos:"
+msgstr "İzin verilmeyen karakterler:"
 
 #: src/mod_muc_log.erl:365 src/mod_muc_log.erl:374
 msgid "Chatroom configuration modified"
-msgstr "Configuración de la sala modificada"
+msgstr "Sohbet odası ayarı değiştirildi"
 
 #: src/mod_muc_log.erl:458
 msgid "Chatroom is created"
-msgstr "Se ha creado la sala"
+msgstr "Sohbet odası oluşturuldu"
 
 #: src/mod_muc_log.erl:460
 msgid "Chatroom is destroyed"
-msgstr "Se ha destruido la sala"
+msgstr "Sohbet odası kaldırıldı"
 
 #: src/mod_muc_log.erl:462
 msgid "Chatroom is started"
-msgstr "Se ha iniciado la sala"
+msgstr "Sohbet odası başlatıldı"
 
 #: src/mod_muc_log.erl:464
 msgid "Chatroom is stopped"
-msgstr "Se ha detenido la sala"
+msgstr "Sohbet odası durduruldu"
 
 #: src/mod_muc_admin.erl:554 src/mod_muc.erl:1243
 msgid "Chatrooms"
-msgstr "Salas de charla"
+msgstr "Sohbet Odaları"
 
 #: src/mod_register.erl:221
 msgid "Choose a username and password to register with this server"
-msgstr ""
-"Escoge un nombre de usuario y contraseña para registrarte en este servidor"
+msgstr "Bu sunucuya kayıt olmak için bir kullanıcı ismi ve parola seçiniz"
 
 #: src/mod_configure.erl:830
 msgid "Choose storage type of tables"
-msgstr "Selecciona tipo de almacenamiento de las tablas"
+msgstr "Tabloların veri depolama tipini seçiniz"
 
 #: src/mod_pubsub.erl:1390
 msgid "Choose whether to approve this entity's subscription."
-msgstr "Decidir si aprobar la subscripción de esta entidad."
+msgstr "Bu varlığın üyeliğini onaylayıp onaylamamayı seçiniz."
 
 #: src/mod_vcard_mnesia.erl:107 src/mod_vcard_mnesia.erl:121
 #: src/mod_vcard_sql.erl:164 src/mod_vcard_sql.erl:178
 #: src/mod_vcard_ldap.erl:334 src/mod_vcard_ldap.erl:347
 msgid "City"
-msgstr "Ciudad"
+msgstr "İl"
 
 #: src/mod_stream_mgmt.erl:477
 msgid "Client acknowledged more stanzas than sent by server"
 msgstr ""
-"El cliente ha reconocido más paquetes de los que el servidor ha enviado"
 
 #: src/mod_adhoc.erl:107 src/mod_adhoc.erl:134 src/mod_adhoc.erl:150
 #: src/mod_adhoc.erl:166
 msgid "Commands"
-msgstr "Comandos"
+msgstr "Komutlar"
 
 #: src/mod_muc.erl:552 src/mod_muc.erl:576 src/mod_muc_room.erl:212
 #: src/mod_muc_room.erl:223
 msgid "Conference room does not exist"
-msgstr "La sala de conferencias no existe"
+msgstr "Konferans odası bulunamadı"
 
 #: src/mod_configure.erl:129 src/mod_configure.erl:275
 #: src/mod_configure.erl:296 src/mod_configure.erl:492
 msgid "Configuration"
-msgstr "Configuración"
+msgstr "Ayarlar"
 
 #: src/mod_muc_room.erl:3499
 msgid "Configuration of room ~s"
-msgstr "Configuración para la sala ~s"
+msgstr "~s odasının ayarları"
 
 #: src/ejabberd_web_admin.erl:944
 msgid "Connected Resources:"
-msgstr "Recursos conectados:"
+msgstr "Bağlı Kaynaklar:"
 
 #: deps/xmpp/src/muc_roominfo.erl:764
 msgid "Contact Addresses (normally, room owner or owners)"
-msgstr "Direcciones de contacto (normalmente la del dueño o dueños de la sala)"
+msgstr ""
 
 #: src/mod_register_web.erl:150
 #, fuzzy
 msgid "Could not change the password: "
-msgstr "Hubo un error cambiando la contraseña: "
+msgstr "Parolanın değiştirilmesi sırasında bir hata oluştu:"
 
 #: src/mod_register_web.erl:122
 #, fuzzy
 msgid "Could not register the account: "
-msgstr "Borrar una cuenta XMPP"
+msgstr "Bir XMPP hesabı kaydı sil"
 
 #: src/mod_register_web.erl:135
 #, fuzzy
 msgid "Could not unregister the account: "
-msgstr "Borrar una cuenta XMPP"
+msgstr "Bir XMPP hesabı kaydı sil"
 
 #: src/mod_vcard_mnesia.erl:106 src/mod_vcard_mnesia.erl:120
 #: src/mod_vcard_sql.erl:163 src/mod_vcard_sql.erl:177
 #: src/mod_vcard_ldap.erl:333 src/mod_vcard_ldap.erl:346
 msgid "Country"
-msgstr "País"
+msgstr "Ülke"
 
 #: deps/xmpp/src/muc_roominfo.erl:875
 msgid "Current Discussion Topic"
-msgstr "Tema de discusión actual"
+msgstr ""
 
 #: src/mod_configure.erl:140 src/mod_configure.erl:564
 #: src/ejabberd_web_admin.erl:1099 src/ejabberd_web_admin.erl:1806
 msgid "Database"
-msgstr "Base de datos"
+msgstr "Veritabanı"
 
 #: src/mod_configure.erl:828
 msgid "Database Tables Configuration at "
-msgstr "Configuración de tablas de la base de datos en "
+msgstr "Veritabanı Tablo Ayarları : "
 
 #: src/ejabberd_web_admin.erl:1168
+#, fuzzy
 msgid "Database Tables at ~p"
-msgstr "Tablas de la base de datos en ~p"
+msgstr "Veritabanı Tabloları : "
 
 #: src/mod_blocking.erl:263 src/node_flat_sql.erl:775 src/mod_pubsub.erl:3744
 #: src/mod_pubsub.erl:3788 src/mod_pubsub.erl:3808 src/mod_pubsub.erl:3892
@@ -499,451 +504,465 @@ msgstr "Tablas de la base de datos en ~p"
 #: src/mod_mam.erl:670 src/mod_mam.erl:700 src/mod_mam.erl:1036
 #: src/nodetree_tree_sql.erl:124 src/nodetree_tree_sql.erl:138
 #: src/nodetree_tree_sql.erl:280 src/mod_vcard.erl:238
+#, fuzzy
 msgid "Database failure"
-msgstr "Error en la base de datos"
+msgstr "Veritabanı"
 
 #: src/mod_muc_log.erl:489
 msgid "December"
-msgstr "Diciembre"
+msgstr "Aralık"
 
 #: src/mod_muc_log.erl:811 deps/xmpp/src/muc_roomconfig.erl:1801
 msgid "Default users as participants"
-msgstr "Los usuarios son participantes por defecto"
+msgstr "Kullanıcılar öntanımlı olarak katılımcı olsun"
 
 #: src/mod_shared_roster.erl:943 src/mod_offline.erl:1012
 msgid "Delete Selected"
-msgstr "Borrar los seleccionados"
+msgstr "Seçilenleri Sil"
 
 #: src/mod_configure.erl:163 src/mod_configure.erl:506
 #: src/mod_configure.erl:1008
 msgid "Delete User"
-msgstr "Borrar usuario"
+msgstr "Kullanıcıyı Sil"
 
 #: src/ejabberd_web_admin.erl:1509
+#, fuzzy
 msgid "Delete content"
-msgstr "Borrar contenido"
+msgstr "Seçilenleri Sil"
 
 #: src/mod_announce.erl:625
 msgid "Delete message of the day"
-msgstr "Borrar mensaje del dia"
+msgstr "Günün mesajını sil"
 
 #: src/mod_announce.erl:627
 msgid "Delete message of the day on all hosts"
-msgstr "Borrar el mensaje del día en todos los dominios"
+msgstr "Tüm sunuculardaki günün mesajını sil"
 
 #: src/ejabberd_web_admin.erl:1510
+#, fuzzy
 msgid "Delete table"
-msgstr "Borrar tabla"
+msgstr "Kullanıcıyı Sil"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1530
 msgid "Deliver event notifications"
-msgstr "Entregar notificaciones de eventos"
+msgstr "Olay uyarıları gönderilsin"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1546
 msgid "Deliver payloads with event notifications"
-msgstr "Enviar contenidos junto con las notificaciones de eventos"
+msgstr "Yükleri (payload) olay uyarıları ile beraber gönder"
 
 #: src/mod_shared_roster.erl:1011
 msgid "Description:"
-msgstr "Descripción:"
+msgstr "Tanım:"
 
 #: src/mod_configure.erl:806 src/ejabberd_web_admin.erl:1507
 msgid "Disc only copy"
-msgstr "Copia en disco solamente"
+msgstr "Sadece disk kopyala"
 
 #: src/mod_shared_roster.erl:1029
+#, fuzzy
 msgid "Displayed:"
-msgstr "Mostrados:"
+msgstr "Gösterilen Gruplar:"
 
 #: src/mod_register_web.erl:283
+#, fuzzy
 msgid ""
 "Don't tell your password to anybody, not even the administrators of the XMPP "
 "server."
-msgstr ""
-"No le digas tu contraseña a nadie, ni siquiera a los administradores del "
-"servidor XMPP."
+msgstr "Parolanızı kimseye söylemeyin, XMPP sunucusunun yöneticilerine bile."
 
 #: src/mod_configure.erl:880
 msgid "Dump Backup to Text File at "
-msgstr "Exporta copia de seguridad a fichero de texto en "
+msgstr "Metin Dosyasına Döküm Alarak Yedekle : "
 
 #: src/mod_configure.erl:149 src/mod_configure.erl:586
 msgid "Dump to Text File"
-msgstr "Exportar a fichero de texto"
+msgstr "Metin Dosyasına Döküm Al"
 
 #: src/mod_roster.erl:175
 msgid "Duplicated groups are not allowed by RFC6121"
-msgstr "Los grupos duplicados no están permitidos por RFC6121"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1597
 msgid "Dynamically specify a replyto of the item publisher"
 msgstr ""
-"Especificar dinámicamente como dirección de respuesta al publicador del "
-"elemento"
 
 #: src/mod_configure.erl:1518
 msgid "Edit Properties"
-msgstr "Editar propiedades"
+msgstr "Özellikleri Düzenle"
 
 #: src/mod_muc_room.erl:4412
 msgid "Either approve or decline the voice request."
-msgstr "Aprueba o rechaza la petición de voz."
+msgstr "Ses isteğini kabul edin ya da reddedin"
 
 #: src/ejabberd_web_admin.erl:1180
 msgid "Elements"
-msgstr "Elementos"
+msgstr "Elementler"
 
 #: src/mod_vcard_mnesia.erl:108 src/mod_vcard_mnesia.erl:122
 #: src/mod_vcard_sql.erl:165 src/mod_vcard_sql.erl:179
 #: src/mod_vcard_ldap.erl:335 src/mod_vcard_ldap.erl:348
 msgid "Email"
-msgstr "Correo electrónico"
+msgstr "E-posta"
 
 #: deps/xmpp/src/muc_register.erl:432
 msgid "Email Address"
-msgstr "Dirección de correo electrónico"
+msgstr ""
 
 #: src/mod_muc_log.erl:822 deps/xmpp/src/muc_roomconfig.erl:1668
 msgid "Enable logging"
-msgstr "Guardar históricos"
+msgstr "Kayıt tutma özelliğini aç"
 
 #: deps/xmpp/src/muc_roomconfig.erl:2007
 msgid "Enable message archiving"
-msgstr "Activar el almacenamiento de mensajes"
+msgstr ""
 
 #: src/mod_push.erl:324
 msgid "Enabling push without 'node' attribute is not supported"
-msgstr "No está soportado activar Push sin el atributo 'node'"
+msgstr ""
 
 #: src/mod_configure.erl:165 src/mod_configure.erl:508
 #: src/mod_configure.erl:1018
 msgid "End User Session"
-msgstr "Cerrar sesión de usuario"
+msgstr "Kullanıcı Oturumunu Kapat"
 
 #: src/mod_muc.erl:1009
 msgid "Enter nickname you want to register"
-msgstr "Introduce el apodo que quieras registrar"
+msgstr "Kaydettirmek istediğiniz takma ismi giriniz"
 
 #: src/mod_configure.erl:859 src/mod_configure.erl:871
 msgid "Enter path to backup file"
-msgstr "Introduce ruta al fichero de copia de seguridad"
+msgstr "Yedek dosyasının yolunu giriniz"
 
 #: src/mod_configure.erl:905
 msgid "Enter path to jabberd14 spool dir"
-msgstr "Introduce la ruta al directorio de jabberd14 spools"
+msgstr "jabberd14 spool dosyası için yol giriniz"
 
 #: src/mod_configure.erl:894
 msgid "Enter path to jabberd14 spool file"
-msgstr "Introduce ruta al fichero jabberd14 spool"
+msgstr "jabberd14 spool dosyası için yol giriniz"
 
 #: src/mod_configure.erl:883
 msgid "Enter path to text file"
-msgstr "Introduce ruta al fichero de texto"
+msgstr "Metin dosyasının yolunu giriniz"
 
 #: src/ejabberd_captcha.erl:72 deps/xmpp/src/captcha_form.erl:746
 msgid "Enter the text you see"
-msgstr "Teclea el texto que ves"
+msgstr "Gördüğünüz metni giriniz"
 
 #: src/mod_vcard.erl:213
+#, fuzzy
 msgid "Erlang XMPP Server"
-msgstr "Servidor XMPP en Erlang"
+msgstr "Erlang XMPP Sunucusu"
 
 #: src/ejabberd_web_admin.erl:1203
 msgid "Error"
-msgstr "Error"
+msgstr "Hata"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1607
 msgid "Exclude Jabber IDs from CAPTCHA challenge"
-msgstr "Excluir Jabber IDs de las pruebas de CAPTCHA"
+msgstr "CAPTCHA doğrulamasını şu Jabber ID'ler için yapma"
 
 #: src/ejabberd_web_admin.erl:1309
 msgid "Export all tables as SQL queries to a file:"
-msgstr "Exportar todas las tablas a un fichero SQL:"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:1283
 msgid "Export data of all users in the server to PIEFXIS files (XEP-0227):"
 msgstr ""
-"Exportar datos de todos los usuarios del servidor a ficheros PIEFXIS "
-"(XEP-0227):"
+"Sunucudaki tüm kullanıcıların verisini PIEFXIS dosyalarına (XEP-0227) dışa "
+"aktar:"
 
 #: src/ejabberd_web_admin.erl:1295
 msgid "Export data of users in a host to PIEFXIS files (XEP-0227):"
 msgstr ""
-"Exportar datos de los usuarios de un dominio a ficheros PIEFXIS (XEP-0227):"
+"Bir sunucudaki kullanıcıların verisini PIEFXIS dosyalarına (XEP-0227) dışa "
+"aktar:"
 
 #: src/mod_delegation.erl:352
 msgid "External component failure"
-msgstr "Fallo en el componente externo"
+msgstr ""
 
 #: src/mod_delegation.erl:360
 msgid "External component timeout"
-msgstr "Demasiado retraso (timeout) en el componente externo"
+msgstr ""
 
 #: deps/xmpp/src/muc_register.erl:446
 msgid "FAQ Entry"
-msgstr "Apunte en la FAQ"
+msgstr ""
 
 #: src/mod_proxy65_service.erl:229
 msgid "Failed to activate bytestream"
-msgstr "Falló la activación de bytestream"
+msgstr ""
 
 #: src/mod_muc_room.erl:1137
 msgid "Failed to extract JID from your voice request approval"
-msgstr "Fallo al extraer el Jabber ID de tu aprobación de petición de voz"
+msgstr "Ses isteği onayınızdan JID bilginize ulaşılamadı"
 
 #: src/mod_delegation.erl:333
 msgid "Failed to map delegated namespace to external component"
-msgstr "Falló el mapeo de espacio de nombres delegado al componente externo"
+msgstr ""
 
 #: src/mod_http_upload.erl:864
 msgid "Failed to parse HTTP response"
-msgstr "Falló la comprensión de la respuesta HTTP"
+msgstr ""
 
 #: src/mod_muc_room.erl:3642
 msgid "Failed to process option '~s'"
-msgstr "Falló el procesado de la opción '~s'"
+msgstr ""
 
 #: src/mod_vcard_mnesia.erl:103 src/mod_vcard_mnesia.erl:117
 #: src/mod_vcard_sql.erl:160 src/mod_vcard_sql.erl:174
 #: src/mod_vcard_ldap.erl:330 src/mod_vcard_ldap.erl:343
 #: deps/xmpp/src/muc_register.erl:474
 msgid "Family Name"
-msgstr "Apellido"
+msgstr "Soyisim"
 
 #: src/mod_muc_log.erl:479
 msgid "February"
-msgstr "Febrero"
+msgstr "Şubat"
 
 #: src/mod_http_upload.erl:810
 msgid "File larger than ~w bytes"
-msgstr "El fichero es más grande que ~w bytes"
+msgstr ""
 
 #: src/mod_vcard.erl:458
+#, fuzzy
 msgid "Fill in the form to search for any matching XMPP User"
-msgstr "Rellena campos para buscar usuarios XMPP que concuerden"
+msgstr "Eşleşen jabber kullanıcılarını aramak için alanları doldurunuz"
 
 #: src/mod_muc_log.erl:472
 msgid "Friday"
-msgstr "Viernes"
+msgstr "Cuma"
 
 #: src/mod_offline.erl:1000
 msgid "From"
-msgstr "De"
+msgstr "Kimden"
 
 #: src/mod_configure.erl:678
+#, fuzzy
 msgid "From ~ts"
-msgstr "De ~ts"
+msgstr "Kimden ~s"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1909
 msgid "Full List of Room Admins"
-msgstr "Lista completa de administradores de la sala"
+msgstr ""
 
 #: deps/xmpp/src/muc_roomconfig.erl:1952
 msgid "Full List of Room Owners"
-msgstr "Lista completa de dueños de la sala"
+msgstr ""
 
 #: src/mod_vcard_mnesia.erl:100 src/mod_vcard_mnesia.erl:114
 #: src/mod_vcard_sql.erl:157 src/mod_vcard_sql.erl:171
 #: src/mod_vcard_ldap.erl:327 src/mod_vcard_ldap.erl:340
 msgid "Full Name"
-msgstr "Nombre completo"
+msgstr "Tam İsim"
 
 #: src/mod_configure.erl:178 src/mod_configure.erl:520
 msgid "Get Number of Online Users"
-msgstr "Ver número de usuarios conectados"
+msgstr "Bağlı Kullanıcı Sayısını Al"
 
 #: src/mod_configure.erl:175 src/mod_configure.erl:518
 msgid "Get Number of Registered Users"
-msgstr "Ver número de usuarios registrados"
+msgstr "Kayıtlı Kullanıcı Sayısını Al"
 
 #: src/mod_pubsub.erl:1036
+#, fuzzy
 msgid "Get Pending"
-msgstr "Obtener pendientes"
+msgstr "Sıra Bekleyen"
 
 #: src/mod_configure.erl:171 src/mod_configure.erl:514
 #: src/mod_configure.erl:1052
 msgid "Get User Last Login Time"
-msgstr "Ver fecha de la última conexión de usuario"
+msgstr "Kullanıcı Son Giriş Zamanınlarını Al"
 
 #: src/mod_configure.erl:167 src/mod_configure.erl:510
 #: src/mod_configure.erl:1028
 msgid "Get User Password"
-msgstr "Ver contraseña de usuario"
+msgstr "Kullanıcı Parolasını Al"
 
 #: src/mod_configure.erl:173 src/mod_configure.erl:516
 #: src/mod_configure.erl:1061
 msgid "Get User Statistics"
-msgstr "Ver estadísticas de usuario"
+msgstr "Kullanıcı İstatistiklerini Al"
 
 #: src/mod_vcard_ldap.erl:328 src/mod_vcard_ldap.erl:341
 #: deps/xmpp/src/muc_register.erl:460
+#, fuzzy
 msgid "Given Name"
-msgstr "Nombre"
+msgstr "Ortanca İsim"
 
 #: deps/xmpp/src/muc_request.erl:383
 msgid "Grant voice to this person?"
-msgstr "¿Conceder voz a esta persona?"
+msgstr "Bu kişiye ses verelim mi?"
 
 #: src/mod_shared_roster.erl:1040
+#, fuzzy
 msgid "Group"
-msgstr "Grupo"
+msgstr "Gruplar"
 
 #: src/mod_roster.erl:1005
 msgid "Groups"
-msgstr "Grupos"
+msgstr "Gruplar"
 
 #: src/mod_shared_roster.erl:1035
 msgid "Groups that will be displayed to the members"
-msgstr "Grupos que se mostrarán a los miembros"
+msgstr ""
 
 #: src/mod_http_upload.erl:210
 msgid "HTTP File Upload"
-msgstr "Subir fichero por HTTP"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:587
 msgid "Host"
-msgstr "Dominio"
+msgstr "Sunucu"
 
 #: src/mod_s2s_dialback.erl:363
 msgid "Host unknown"
-msgstr "Dominio desconocido"
+msgstr ""
 
 #: src/mod_configure.erl:1405
 msgid "IP addresses"
-msgstr "Direcciones IP"
+msgstr "IP adresleri"
 
 #: src/ejabberd_s2s_out.erl:269
+#, fuzzy
 msgid "Idle connection"
-msgstr "Conexión sin uso"
+msgstr "Eski bağlantı yenisi ile değiştirildi"
 
 #: src/ejabberd_captcha.erl:119
 msgid "If you don't see the CAPTCHA image here, visit the web page."
-msgstr "Si no ves la imagen CAPTCHA aquí, visita la página web."
+msgstr ""
+"Eğer burada CAPTCHA resmini göremiyorsanız, web sayfasını ziyaret edin."
 
 #: src/mod_configure.erl:155 src/mod_configure.erl:599
 msgid "Import Directory"
-msgstr "Importar directorio"
+msgstr "Dizini İçe Aktar"
 
 #: src/mod_configure.erl:152 src/mod_configure.erl:597
 msgid "Import File"
-msgstr "Importar fichero"
+msgstr "Dosyayı İçe Aktar"
 
 #: src/mod_configure.erl:891
 msgid "Import User from File at "
-msgstr "Importa usuario desde fichero en "
+msgstr "Dosyadan Kullanıcıları İçe Aktar : "
 
 #: src/mod_configure.erl:568
 msgid "Import Users From jabberd14 Spool Files"
-msgstr "Importar usuarios de ficheros spool de jabberd-1.4"
+msgstr "Jabberd 1.4 Spool Dosyalarından Kullanıcıları İçeri Aktar"
 
 #: src/mod_configure.erl:902
 msgid "Import Users from Dir at "
-msgstr "Importar usuarios desde el directorio en "
+msgstr "Dizinden Kullanıcıları İçe Aktar : "
 
 #: src/ejabberd_web_admin.erl:1323
 msgid "Import user data from jabberd14 spool file:"
-msgstr "Importar usuario de fichero spool de jabberd14:"
+msgstr "Jabberd 1.4 Spool Dosyalarından Kullanıcıları İçe Aktar:"
 
 #: src/ejabberd_web_admin.erl:1270
 msgid "Import users data from a PIEFXIS file (XEP-0227):"
-msgstr "Importar usuarios desde un fichero PIEFXIS (XEP-0227):"
+msgstr "Kullanıcıları bir PIEFXIS dosyasından (XEP-0227) içe aktar:"
 
 #: src/ejabberd_web_admin.erl:1334
 msgid "Import users data from jabberd14 spool directory:"
-msgstr "Importar usuarios del directorio spool de jabberd14:"
+msgstr "Jabberd 1.4 Spool Dizininden Kullanıcıları İçe Aktar:"
 
 #: src/ejabberd_service.erl:219
 msgid "Improper domain part of 'from' attribute"
-msgstr "Parte de dominio impropia en el atributo 'from'"
+msgstr ""
 
 #: src/mod_muc_room.erl:404
 msgid "Improper message type"
-msgstr "Tipo de mensaje incorrecto"
+msgstr "Uygunsuz mesaj tipi"
 
 #: src/ejabberd_web_admin.erl:819
+#, fuzzy
 msgid "Incoming s2s Connections:"
-msgstr "Conexiones S2S entrantes:"
+msgstr "Giden s2s Bağlantıları:"
 
 #: src/mod_register.erl:197 src/mod_muc_room.erl:4178
 #: src/ejabberd_captcha.erl:215
 msgid "Incorrect CAPTCHA submit"
-msgstr "El CAPTCHA proporcionado es incorrecto"
+msgstr ""
 
 #: src/mod_pubsub.erl:1247 src/mod_register.erl:193 src/mod_muc.erl:1057
 #: src/mod_muc_room.erl:3383 src/mod_vcard.erl:267
+#, fuzzy
 msgid "Incorrect data form"
-msgstr "Formulario de datos incorrecto"
+msgstr "Yanlış parola"
 
 #: src/mod_register.erl:153 src/mod_register_web.erl:603
 #: src/mod_muc_room.erl:2207
 msgid "Incorrect password"
-msgstr "Contraseña incorrecta"
+msgstr "Yanlış parola"
 
 #: src/mod_adhoc.erl:262
 msgid "Incorrect value of 'action' attribute"
-msgstr "Valor incorrecto del atributo 'action'"
+msgstr ""
 
 #: src/mod_configure.erl:1550
 msgid "Incorrect value of 'action' in data form"
-msgstr "Valor incorrecto de 'action' en el formulario de datos"
+msgstr ""
 
 #: src/mod_configure.erl:1153 src/mod_configure.erl:1186
 #: src/mod_configure.erl:1219 src/mod_configure.erl:1239
 #: src/mod_configure.erl:1259
 msgid "Incorrect value of 'path' in data form"
-msgstr "Valor incorrecto de 'path' en el formulario de datos"
+msgstr ""
 
 #: src/mod_privilege.erl:208
 msgid "Insufficient privilege"
-msgstr "Privilegio insuficiente"
+msgstr ""
 
 #: src/mod_multicast.erl:352
 msgid "Internal server error"
-msgstr "Error interno en el servidor"
+msgstr ""
 
 #: src/mod_privilege.erl:409
 msgid "Invalid 'from' attribute in forwarded message"
-msgstr "Atributo 'from' no válido en el mensaje reenviado"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:792
+#, fuzzy
 msgid "Invalid 'previd' value"
-msgstr "Valor de 'previd' no válido"
+msgstr "Geçersiz rol: ~s"
 
 #: src/mod_muc_room.erl:4095
+#, fuzzy
 msgid "Invalid node name"
-msgstr "Nombre de nodo no válido"
+msgstr "Geçersiz rol: ~s"
 
 #: src/mod_muc_room.erl:4457
+#, fuzzy
 msgid "Invitations are not allowed in this conference"
-msgstr "Las invitaciones no están permitidas en esta sala"
+msgstr "Bu konferansta ses istekleri etkisizleştirilmiş durumda."
 
 #: src/mod_muc_room.erl:377 src/mod_muc_room.erl:523 src/mod_muc_room.erl:1302
 msgid ""
 "It is not allowed to send error messages to the room. The participant (~s) "
 "has sent an error message (~s) and got kicked from the room"
 msgstr ""
-"No está permitido enviar mensajes de error a la sala. Este participante (~s) "
-"ha enviado un mensaje de error (~s) y fue expulsado de la sala"
 
 #: src/mod_muc_room.erl:568 src/mod_muc_room.erl:579
 msgid "It is not allowed to send private messages"
-msgstr "No está permitido enviar mensajes privados"
+msgstr "Özel mesaj gönderilmesine izin verilmiyor"
 
 #: src/mod_muc_room.erl:536
 msgid "It is not allowed to send private messages of type \"groupchat\""
-msgstr "No está permitido enviar mensajes privados del tipo \"groupchat\""
+msgstr "\"groupchat\" tipinde özel mesajlar gönderilmesine izin verilmiyor"
 
 #: src/mod_muc_room.erl:388
 msgid "It is not allowed to send private messages to the conference"
-msgstr "Impedir el envio de mensajes privados a la sala"
+msgstr "Konferansa özel mesajlar gönderilmesine izin verilmiyor"
 
 #: src/mod_jidprep.erl:160
+#, fuzzy
 msgid "JID normalization denied by service policy"
-msgstr "Se ha denegado la normalización del JID por política del servicio"
+msgstr "Odanın oluşturulması servis politikası gereği reddedildi"
 
 #: src/mod_jidprep.erl:154
 msgid "JID normalization failed"
-msgstr "Ha fallado la normalización del JID"
+msgstr ""
 
 #: src/mod_vcard_mnesia.erl:113 src/mod_configure.erl:995
 #: src/mod_configure.erl:1012 src/mod_configure.erl:1022
@@ -957,143 +976,145 @@ msgstr "Jabber ID"
 
 #: src/mod_muc_log.erl:478
 msgid "January"
-msgstr "Enero"
+msgstr "Ocak"
 
 #: src/mod_muc_log.erl:484
 msgid "July"
-msgstr "Julio"
+msgstr "Temmuz"
 
 #: src/mod_muc_log.erl:483
 msgid "June"
-msgstr "Junio"
+msgstr "Haziran"
 
 #: src/mod_muc_admin.erl:537
 msgid "Just created"
-msgstr "Recién creada"
+msgstr ""
 
 #: src/mod_shared_roster.erl:1006
 msgid "Label:"
-msgstr "Etiqueta:"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:710 src/ejabberd_web_admin.erl:774
 #: src/ejabberd_web_admin.erl:948
 msgid "Last Activity"
-msgstr "Última actividad"
+msgstr "Son Aktivite"
 
 #: src/mod_configure.erl:1378
 msgid "Last login"
-msgstr "Última conexión"
+msgstr "Son giriş"
 
 #: src/mod_muc_admin.erl:533
+#, fuzzy
 msgid "Last message"
-msgstr "Último mensaje"
+msgstr "Geçen yıl"
 
 #: src/ejabberd_web_admin.erl:492
 msgid "Last month"
-msgstr "Último mes"
+msgstr "Geçen ay"
 
 #: src/ejabberd_web_admin.erl:493
 msgid "Last year"
-msgstr "Último año"
+msgstr "Geçen yıl"
 
 #: deps/xmpp/src/captcha_form.erl:807
 msgid ""
 "Least significant bits of SHA-256 hash of text should equal hexadecimal label"
 msgstr ""
-"Los bits menos significativos del hash SHA-256 del texto deberían ser "
-"iguales a la etiqueta hexadecimal"
 
 #: src/mod_muc_admin.erl:485
 msgid "List of rooms"
-msgstr "Lista de salas"
+msgstr ""
 
 #: src/mod_muc_admin.erl:536
 msgid "Logging"
-msgstr "Histórico de mensajes"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:1442
 msgid "Low level update script"
-msgstr "Script de actualización a bajo nivel"
+msgstr "Düşük seviye güncelleme betiği"
 
 #: src/mod_mam.erl:656
+#, fuzzy
 msgid "MAM preference modification denied by service policy"
-msgstr "Se ha denegado modificar la preferencia MAM por política del servicio"
+msgstr "Odanın oluşturulması servis politikası gereği reddedildi"
 
 #: src/mod_muc_log.erl:800 deps/xmpp/src/muc_roomconfig.erl:1894
 msgid "Make participants list public"
-msgstr "La lista de participantes es pública"
+msgstr "Katılımcı listesini herkese açık hale getir"
 
 #: src/mod_muc_log.erl:828 deps/xmpp/src/muc_roomconfig.erl:1591
 msgid "Make room CAPTCHA protected"
-msgstr "Proteger la sala con CAPTCHA"
+msgstr "Odayı insan doğrulaması (captcha) korumalı hale getir"
 
 #: src/mod_muc_log.erl:807 deps/xmpp/src/muc_roomconfig.erl:1772
 msgid "Make room members-only"
-msgstr "Sala sólo para miembros"
+msgstr "Odayı sadece üyelere açık hale getir"
 
 #: src/mod_muc_log.erl:809 deps/xmpp/src/muc_roomconfig.erl:1786
 msgid "Make room moderated"
-msgstr "Sala moderada"
+msgstr "Odayı moderasyonlu hale getir"
 
 #: src/mod_muc_log.erl:802 deps/xmpp/src/muc_roomconfig.erl:1818
 msgid "Make room password protected"
-msgstr "Proteger la sala con contraseña"
+msgstr "Odayı parola korumalı hale getir"
 
 #: src/mod_muc_log.erl:796 deps/xmpp/src/muc_roomconfig.erl:1832
 msgid "Make room persistent"
-msgstr "Sala permanente"
+msgstr "Odayı kalıcı hale getir"
 
 #: src/mod_muc_log.erl:798 deps/xmpp/src/muc_roomconfig.erl:1879
 msgid "Make room public searchable"
-msgstr "Sala públicamente visible"
+msgstr "Odayı herkes tarafından aranabilir hale getir"
 
 #: src/mod_register.erl:384
+#, fuzzy
 msgid "Malformed username"
-msgstr "Nombre de usuario mal formado"
+msgstr "IRC kullanıcı ismi"
 
 #: src/mod_muc_log.erl:480
 msgid "March"
-msgstr "Marzo"
+msgstr "Mart"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1648
 msgid "Max # of items to persist"
-msgstr "Máximo # de elementos que persisten"
+msgstr "Kalıcı hale getirilecek en fazla öğe sayısı"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1664
 msgid "Max payload size in bytes"
-msgstr "Máximo tamaño del contenido en bytes"
+msgstr "En fazla yük (payload) boyutu (bayt olarak)"
 
 #: deps/xmpp/src/muc_roominfo.erl:699 deps/xmpp/src/muc_roomconfig.erl:1405
 msgid "Maximum Number of History Messages Returned by Room"
-msgstr "Máximo número de mensajes del historial devueltos por la sala"
+msgstr ""
 
 #: src/mod_muc_log.erl:834 deps/xmpp/src/muc_roomconfig.erl:1758
 msgid "Maximum Number of Occupants"
-msgstr "Número máximo de ocupantes"
+msgstr "Odada En Fazla Bulunabilecek Kişi Sayısı"
 
 #: deps/xmpp/src/http_upload.erl:240
 msgid "Maximum file size"
-msgstr "Tamaño máximo de fichero"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_meta_data.erl:788
+#, fuzzy
 msgid "Maximum number of items to persist"
-msgstr "Máximo número de elementos que persisten"
+msgstr "Kalıcı hale getirilecek en fazla öğe sayısı"
 
 #: src/mod_muc_log.erl:482
 msgid "May"
-msgstr "Mayo"
+msgstr "Mayıs"
 
 #: src/mod_shared_roster.erl:1045
 msgid "Members not added (inexistent vhost!): "
-msgstr "Miembros no añadidos (el vhost no existe): "
+msgstr ""
 
 #: src/mod_shared_roster.erl:1020
 msgid "Members:"
-msgstr "Miembros:"
+msgstr "Üyeler:"
 
 #: src/mod_muc_room.erl:2094
 msgid "Membership is required to enter this room"
-msgstr "Necesitas ser miembro de esta sala para poder entrar"
+msgstr "Bu odaya girmek için üyelik gerekiyor"
 
 #: src/mod_register_web.erl:294
 #, fuzzy
@@ -1101,222 +1122,231 @@ msgid ""
 "Memorize your password, or write it on a paper placed in a safe place. In "
 "XMPP there isn't an automated way to recover your password if you forget it."
 msgstr ""
-"Memoriza tu contraseña, o apúntala en un papel en un lugar seguro. En XMPP "
-"no hay un método automatizado para recuperar la contraseña si la olvidas."
+"Parolanızı ezberleyin ya da bir kağıda yazarak güvenli bir yerde saklayın. "
+"XMPP'da parolanızı unutursanız, otomatik kurtarmak için bir yöntem "
+"bulunmuyor."
 
 #: src/ejabberd_web_admin.erl:1181
 msgid "Memory"
-msgstr "Memoria"
+msgstr "Bellek"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:575
 msgid "Mere Availability in XMPP (No Show Value)"
-msgstr "Disponible en XMPP (sin valor de Mostrado)"
+msgstr ""
 
 #: src/mod_configure.erl:948 src/mod_configure.erl:988 src/mod_announce.erl:528
 msgid "Message body"
-msgstr "Cuerpo del mensaje"
+msgstr "Mesajın gövdesi"
 
 #: src/mod_privilege.erl:414
 msgid "Message not found in forwarded payload"
-msgstr "Mensaje no encontrado en el contenido reenviado"
+msgstr ""
 
 #: src/mod_block_strangers.erl:177
 msgid "Messages from strangers are rejected"
-msgstr "Los mensajes de extraños son rechazados"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1715
 msgid "Messages of type headline"
-msgstr "Mensajes de tipo titular"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1711
 msgid "Messages of type normal"
-msgstr "Mensajes de tipo normal"
+msgstr ""
 
 #: src/mod_vcard_mnesia.erl:102 src/mod_vcard_mnesia.erl:116
 #: src/mod_vcard_sql.erl:159 src/mod_vcard_sql.erl:173
 #: src/mod_vcard_ldap.erl:329 src/mod_vcard_ldap.erl:342
 msgid "Middle Name"
-msgstr "Segundo nombre"
+msgstr "Ortanca İsim"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1575
 msgid "Minimum interval between voice requests (in seconds)"
-msgstr "Intervalo mínimo entre peticiones de voz (en segundos)"
+msgstr "Ses istekleri arasında olabilecek en az aralık (saniye olarak)"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1846
+#, fuzzy
 msgid "Moderator"
-msgstr "Moderador"
+msgstr "sadece moderatörler"
 
 #: src/mod_muc_room.erl:2809 src/mod_muc_room.erl:4232
 #: src/mod_muc_room.erl:4283 src/mod_muc_room.erl:4329
 msgid "Moderator privileges required"
-msgstr "Se necesita privilegios de moderador"
+msgstr "Moderatör yetkileri gerekli"
 
 #: deps/xmpp/src/muc_roominfo.erl:734 deps/xmpp/src/muc_roomconfig.erl:1424
 #: deps/xmpp/src/muc_roomconfig.erl:1476 deps/xmpp/src/muc_roomconfig.erl:1979
+#, fuzzy
 msgid "Moderators Only"
-msgstr "Solo moderadores"
+msgstr "sadece moderatörler"
 
 #: src/ejabberd_web_admin.erl:1440
 msgid "Modified modules"
-msgstr "Módulos modificados"
+msgstr "Değişen modüller"
 
 #: src/gen_iq_handler.erl:119
 msgid "Module failed to handle the query"
-msgstr "El módulo falló al gestionar la petición"
+msgstr ""
 
 #: src/mod_muc_log.erl:468
 msgid "Monday"
-msgstr "Lunes"
+msgstr "Pazartesi"
 
 #: src/mod_muc_admin.erl:459 src/mod_muc_admin.erl:462
 #: src/mod_muc_admin.erl:478 src/mod_muc_admin.erl:552
 msgid "Multi-User Chat"
-msgstr "Salas de Charla"
+msgstr ""
 
 #: src/mod_multicast.erl:1162
 msgid "Multicast"
-msgstr "Multicast"
+msgstr ""
 
 #: src/mod_roster.erl:190
 msgid "Multiple <item/> elements are not allowed by RFC6121"
-msgstr "No se permiten múltiples elementos <item/> en RFC6121"
+msgstr ""
 
 #: src/mod_vcard_mnesia.erl:101 src/mod_vcard_mnesia.erl:115
 #: src/mod_vcard_sql.erl:158 src/mod_vcard_sql.erl:172
 #: src/ejabberd_web_admin.erl:1178
 msgid "Name"
-msgstr "Nombre"
+msgstr "İsim"
 
 #: src/mod_shared_roster.erl:1009
 msgid "Name in the rosters where this group will be displayed"
-msgstr "Nombre del grupo con que aparecerá en las listas de contactos"
+msgstr ""
 
 #: src/mod_shared_roster.erl:908 src/mod_shared_roster.erl:1002
 msgid "Name:"
-msgstr "Nombre:"
+msgstr "İsim:"
 
 #: deps/xmpp/src/muc_roominfo.erl:795 deps/xmpp/src/muc_roomconfig.erl:1707
 msgid "Natural Language for Room Discussions"
-msgstr "Idioma natural en las charlas de la sala"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:846
 msgid "Natural-Language Room Name"
-msgstr "Nombre de la sala en el idioma natural de la sala"
+msgstr ""
 
 #: src/mod_muc_room.erl:2987
 msgid "Neither 'jid' nor 'nick' attribute found"
-msgstr "No se encontraron los atributos 'jid' ni 'nick'"
+msgstr ""
 
 #: src/mod_muc_room.erl:2791 src/mod_muc_room.erl:2992
 msgid "Neither 'role' nor 'affiliation' attribute found"
-msgstr "No se encontraron los atributos 'role' ni 'affiliation'"
+msgstr ""
 
 #: src/mod_configure.erl:1361 src/ejabberd_web_admin.erl:726
 #: src/ejabberd_web_admin.erl:920 deps/xmpp/src/pubsub_node_config.erl:1916
 msgid "Never"
-msgstr "Nunca"
+msgstr "Asla"
 
 #: src/mod_register_web.erl:413
 msgid "New Password:"
-msgstr "Nueva contraseña:"
+msgstr "Yeni Parola:"
 
 #: src/mod_vcard_mnesia.erl:104 src/mod_vcard_mnesia.erl:118
 #: src/mod_vcard_sql.erl:161 src/mod_vcard_sql.erl:175 src/mod_roster.erl:1002
 #: src/mod_vcard_ldap.erl:331 src/mod_vcard_ldap.erl:344
 #: deps/xmpp/src/muc_register.erl:488 deps/xmpp/src/muc_request.erl:368
 msgid "Nickname"
-msgstr "Apodo"
+msgstr "Takma isim"
 
 #: src/mod_muc.erl:1008
 msgid "Nickname Registration at "
-msgstr "Registro del apodo en "
+msgstr "Takma İsim Kaydı : "
 
 #: src/mod_muc_room.erl:1251 src/mod_muc_room.erl:2115
 #: src/mod_muc_room.erl:4253
 msgid "Nickname can't be empty"
-msgstr "El apodo no puede estar vacío"
+msgstr ""
 
 #: src/mod_muc_room.erl:3004
 msgid "Nickname ~s does not exist in the room"
-msgstr "El apodo ~s no existe en la sala"
+msgstr "~s takma ismi odada yok"
 
 #: src/mod_muc_room.erl:3406
 msgid "No 'affiliation' attribute found"
-msgstr "No se encontró el atributo 'affiliation'"
+msgstr ""
 
 #: src/mod_muc_room.erl:2773
+#, fuzzy
 msgid "No 'item' element found"
-msgstr "No se encontró el elemento 'item'"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_configure.erl:1543
 msgid "No 'password' found in data form"
-msgstr "No se encontró 'password' en el formulario de datos"
+msgstr ""
 
 #: src/mod_register.erl:158
 msgid "No 'password' found in this query"
-msgstr "No se encontró 'password' en esta petición"
+msgstr ""
 
 #: src/mod_configure.erl:1135 src/mod_configure.erl:1168
 #: src/mod_configure.erl:1201 src/mod_configure.erl:1233
 #: src/mod_configure.erl:1253
 msgid "No 'path' found in data form"
-msgstr "No se encontró 'path' en este formulario de datos"
+msgstr ""
 
 #: src/mod_muc_room.erl:4453
 msgid "No 'to' attribute found in the invitation"
-msgstr "No se encontró el atributo 'to' en la invitación"
+msgstr ""
 
 #: src/mod_privilege.erl:423
+#, fuzzy
 msgid "No <forwarded/> element found"
-msgstr "No se ha encontrado elemento <forwarded/>"
+msgstr "Düğüm bulunamadı"
 
 #: src/ejabberd_web_admin.erl:1000
 msgid "No Data"
-msgstr "Sin datos"
+msgstr "Veri Yok"
 
 #: src/mod_multicast.erl:338
+#, fuzzy
 msgid "No address elements found"
-msgstr "No se encontraron elementos de dirección ('address')"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_multicast.erl:335
+#, fuzzy
 msgid "No addresses element found"
-msgstr "No se encontró elemento de direcciones ('addresses')"
+msgstr "Düğüm bulunamadı"
 
 #: src/ejabberd_local.erl:103
 msgid "No available resource found"
-msgstr "No se encontró un recurso conectado"
+msgstr ""
 
 #: src/mod_announce.erl:579
 msgid "No body provided for announce message"
-msgstr "No se ha proporcionado cuerpo de mensaje para el anuncio"
+msgstr "Duyuru mesajının gövdesi yok"
 
 #: src/gen_iq_handler.erl:89 src/mod_muc_room.erl:1160
+#, fuzzy
 msgid "No child elements found"
-msgstr "No se encontraron subelementos"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_pubsub.erl:1236
+#, fuzzy
 msgid "No data form found"
-msgstr "No se encontró formulario de datos"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_disco.erl:204 src/mod_vcard.erl:293
 msgid "No features available"
-msgstr "No hay características disponibles"
+msgstr ""
 
 #: src/mod_adhoc.erl:226
 msgid "No hook has processed this command"
-msgstr "Ningún evento ha procesado este comando"
+msgstr ""
 
 #: src/mod_last.erl:205
 msgid "No info about last activity found"
-msgstr "No hay información respeto a la última actividad"
+msgstr ""
 
 #: src/mod_blocking.erl:90
 msgid "No items found in this query"
-msgstr "No se han encontrado elementos en esta petición"
+msgstr ""
 
 #: src/mod_muc_room.erl:3517 deps/xmpp/src/muc_roomconfig.erl:1736
 msgid "No limit"
-msgstr "Sin límite"
+msgstr "Sınırsız"
 
 #: src/gen_iq_handler.erl:82 src/mod_blocking.erl:83 src/mod_blocking.erl:101
 #: src/mod_mix_pam.erl:316 src/mod_roster.erl:202 src/mod_muc.erl:237
@@ -1326,136 +1356,141 @@ msgstr "Sin límite"
 #: src/mod_privacy.erl:273 src/mod_http_upload.erl:769
 #: src/ejabberd_captcha.erl:225
 msgid "No module is handling this query"
-msgstr "Ningún modulo está gestionando esta petición"
+msgstr ""
 
 #: src/mod_pubsub.erl:1602
 msgid "No node specified"
-msgstr "No se ha especificado ningún nodo"
+msgstr ""
 
 #: src/mod_pubsub.erl:1479
 msgid "No pending subscriptions found"
-msgstr "No se han encontrado suscripciones pendientes"
+msgstr ""
 
 #: src/mod_privacy.erl:189 src/mod_privacy.erl:283 src/mod_privacy.erl:299
 #: src/mod_privacy.erl:332
 msgid "No privacy list with this name found"
-msgstr "No se ha encontrado una lista de privacidad con este nombre"
+msgstr ""
 
 #: src/mod_private.erl:175
 msgid "No private data found in this query"
-msgstr "No se ha encontrado ningún elemento de dato privado en esta petición"
+msgstr ""
 
 #: src/mod_configure.erl:818 src/mod_configure.erl:1097
 #: src/mod_configure.erl:1130 src/mod_configure.erl:1163
 #: src/mod_configure.erl:1196 src/mod_configure.erl:1228
 #: src/mod_configure.erl:1248 src/mod_stats.erl:93
+#, fuzzy
 msgid "No running node found"
-msgstr "No se ha encontrado ningún nodo activo"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_disco.erl:232 src/mod_vcard.erl:276
 msgid "No services available"
-msgstr "No hay servicios disponibles"
+msgstr ""
 
 #: src/mod_stats.erl:101
 msgid "No statistics found for this item"
-msgstr "No se han encontrado estadísticas para este elemento"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:736 deps/xmpp/src/muc_roomconfig.erl:1426
 #: deps/xmpp/src/muc_roomconfig.erl:1473
+#, fuzzy
 msgid "Nobody"
-msgstr "Nadie"
+msgstr "hiç kimse"
 
 #: deps/xmpp/src/pubsub_subscribe_authorization.erl:358
 msgid "Node ID"
-msgstr "Nodo ID"
+msgstr "Düğüm ID"
 
 #: src/nodetree_tree.erl:219 src/nodetree_tree_sql.erl:278
 msgid "Node already exists"
-msgstr "El nodo ya existe"
+msgstr ""
 
 #: src/nodetree_tree_sql.erl:96
+#, fuzzy
 msgid "Node index not found"
-msgstr "No se ha encontrado índice de nodo"
+msgstr "Düğüm bulunamadı"
 
 #: src/ejabberd_web_admin.erl:533 src/nodetree_tree.erl:76
 #: src/nodetree_tree.erl:82 src/mod_muc.erl:671 src/mod_muc.erl:946
 #: src/mod_muc_room.erl:4165 src/nodetree_tree_sql.erl:126
 #: src/nodetree_tree_sql.erl:140
 msgid "Node not found"
-msgstr "Nodo no encontrado"
+msgstr "Düğüm bulunamadı"
 
 #: src/ejabberd_web_admin.erl:1090 src/ejabberd_web_admin.erl:1112
+#, fuzzy
 msgid "Node ~p"
-msgstr "Nodo ~p"
+msgstr "Düğüm "
 
 #: src/mod_vcard.erl:398
 msgid "Nodeprep has failed"
-msgstr "Ha fallado el procesado del nombre de nodo (nodeprep)"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:1070 src/ejabberd_web_admin.erl:1794
 #: src/ejabberd_web_admin.erl:1819
 msgid "Nodes"
-msgstr "Nodos"
+msgstr "Düğümler"
 
 #: src/ejabberd_web_admin.erl:855 src/ejabberd_web_admin.erl:1051
 #: src/ejabberd_web_admin.erl:1061 src/ejabberd_web_admin.erl:1399
 #: src/mod_roster.erl:996
 msgid "None"
-msgstr "Ninguno"
+msgstr "Hiçbiri"
 
 #: src/ejabberd_web_admin.erl:519
 msgid "Not Found"
-msgstr "No encontrado"
+msgstr "Bulunamadı"
 
 #: src/mod_register.erl:394 src/mod_register_web.erl:607
+#, fuzzy
 msgid "Not allowed"
-msgstr "No permitido"
+msgstr "Bulunamadı"
 
 #: src/mod_last.erl:145 src/mod_disco.erl:276 src/mod_disco.erl:335
 msgid "Not subscribed"
-msgstr "No suscrito"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1776
 msgid "Notify subscribers when items are removed from the node"
-msgstr "Notificar subscriptores cuando los elementos se borran del nodo"
+msgstr "Düğümden öğeler kaldırıldığında üyeleri uyar"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1742
 msgid "Notify subscribers when the node configuration changes"
-msgstr "Notificar subscriptores cuando cambia la configuración del nodo"
+msgstr "Düğüm ayarları değiştiğinde üyeleri uyar"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1759
 msgid "Notify subscribers when the node is deleted"
-msgstr "Notificar subscriptores cuando el nodo se borra"
+msgstr "Bir düğüm silindiğinde üyeleri uyar"
 
 #: src/mod_muc_log.erl:488
 msgid "November"
-msgstr "Noviembre"
+msgstr "Kasım"
 
 #: deps/xmpp/src/flex_offline.erl:239
+#, fuzzy
 msgid "Number of Offline Messages"
-msgstr "Número de mensajes diferidos"
+msgstr "Çevirim-dışı Mesajlar"
 
 #: deps/xmpp/src/captcha_form.erl:686
+#, fuzzy
 msgid "Number of answers required"
-msgstr "Número de respuestas necesarias"
+msgstr "Bağlı kullanıcı sayısı"
 
 #: deps/xmpp/src/muc_roominfo.erl:860
 msgid "Number of occupants"
-msgstr "Número de ocupantes"
+msgstr "Oda sakini sayısı"
 
 #: src/mod_configure.erl:1085
 msgid "Number of online users"
-msgstr "Número de usuarios conectados"
+msgstr "Bağlı kullanıcı sayısı"
 
 #: src/mod_configure.erl:1075
 msgid "Number of registered users"
-msgstr "Número de usuarios registrados"
+msgstr "Kayıtlı kullanıcı sayısı"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1577
 msgid "Number of seconds after which to automatically purge items"
 msgstr ""
-"Número de segundos después de los cuales se purgarán elementos "
-"automáticamente"
 
 #: src/ejabberd_web_admin.erl:1227 src/ejabberd_web_admin.erl:1237
 #: src/ejabberd_web_admin.erl:1248 src/ejabberd_web_admin.erl:1257
@@ -1464,139 +1499,136 @@ msgstr ""
 #: src/ejabberd_web_admin.erl:1320 src/ejabberd_web_admin.erl:1331
 #: src/ejabberd_web_admin.erl:1341 src/ejabberd_captcha.erl:176
 msgid "OK"
-msgstr "Aceptar"
+msgstr "Tamam"
 
 #: deps/xmpp/src/muc_roominfo.erl:925
+#, fuzzy
 msgid "Occupants May Change the Subject"
-msgstr "Los ocupantes pueden cambiar el Asunto"
+msgstr "Kullanıcıların konu değiştirmesine izin ver"
 
 #: deps/xmpp/src/muc_roominfo.erl:716
+#, fuzzy
 msgid "Occupants are allowed to invite others"
-msgstr "Los ocupantes pueden invitar a otras personas"
+msgstr "Sadece oda sakinlerinin konferansa sorgu göndermesine izin veriliyor"
 
 #: src/mod_muc_log.erl:487
 msgid "October"
-msgstr "Octubre"
+msgstr "Ekim"
 
 #: src/ejabberd_web_admin.erl:709
 msgid "Offline Messages"
-msgstr "Mensajes diferidos"
+msgstr "Çevirim-dışı Mesajlar"
 
 #: src/mod_offline.erl:1077
 msgid "Offline Messages:"
-msgstr "Mensajes diferidos:"
+msgstr "Çevirim-dışı Mesajlar:"
 
 #: src/mod_register_web.erl:409
 msgid "Old Password:"
-msgstr "Contraseña antigua:"
+msgstr "Eski Parola:"
 
 #: src/mod_configure.erl:1371 src/ejabberd_web_admin.erl:744
 #: src/ejabberd_web_admin.erl:931
 msgid "Online"
-msgstr "Conectado"
+msgstr "Bağlı"
 
 #: src/mod_configure.erl:494 src/ejabberd_web_admin.erl:460
 #: src/ejabberd_web_admin.erl:589 src/ejabberd_web_admin.erl:1791
 msgid "Online Users"
-msgstr "Usuarios conectados"
+msgstr "Bağlı Kullanıcılar"
 
 #: src/ejabberd_web_admin.erl:813 src/ejabberd_web_admin.erl:832
 #: src/ejabberd_web_admin.erl:1372
 msgid "Online Users:"
-msgstr "Usuarios conectados:"
+msgstr "Bağlı Kullanıcılar:"
 
 #: src/mod_carboncopy.erl:101
 msgid "Only <enable/> or <disable/> tags are allowed"
-msgstr "Solo se permiten las etiquetas <enable/> o <disable/>"
+msgstr ""
 
 #: src/mod_privacy.erl:142
 msgid "Only <list/> element is allowed in this query"
-msgstr "Solo se permite el elemento <list/> en esta petición"
+msgstr ""
 
 #: src/mod_shared_roster.erl:1017
 msgid "Only admins can see this"
-msgstr "Solo los administradores pueden ver esto"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1386
 msgid ""
 "Only collection node owners may associate leaf nodes with the collection"
 msgstr ""
-"Solo los dueños e la colección de nodos pueden asociar nodos hoja a la "
-"colección"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1827
 msgid "Only deliver notifications to available users"
-msgstr "Solo enviar notificaciones a los usuarios disponibles"
+msgstr "Uyarıları sadece durumu uygun kullanıcılara ulaştır"
 
 #: src/mod_mam.erl:513
+#, fuzzy
 msgid "Only members may query archives of this room"
-msgstr "Solo miembros pueden consultar el archivo de mensajes de la sala"
+msgstr "Sadece moderatörlerin bu odanın konusunu değiştirmesine izin veriliyor"
 
 #: src/mod_muc_room.erl:1000
 msgid ""
 "Only moderators and participants are allowed to change the subject in this "
 "room"
 msgstr ""
-"Solo los moderadores y participantes pueden cambiar el asunto de esta sala"
+"Sadece moderatörlerin ve katılımcıların bu odanın konusunu değiştirmesine "
+"izin veriliyor"
 
 #: src/mod_muc_room.erl:1005
 msgid "Only moderators are allowed to change the subject in this room"
-msgstr "Solo los moderadores pueden cambiar el asunto de esta sala"
+msgstr "Sadece moderatörlerin bu odanın konusunu değiştirmesine izin veriliyor"
 
 #: src/mod_muc_room.erl:1144
 msgid "Only moderators can approve voice requests"
-msgstr "Solo los moderadores pueden aprobar peticiones de voz"
+msgstr "Yalnız moderatörler ses isteklerini onaylayabilir"
 
 #: src/mod_muc_room.erl:574 src/mod_muc_room.erl:1019 src/mod_muc_room.erl:4522
 msgid "Only occupants are allowed to send messages to the conference"
-msgstr "Solo los ocupantes pueden enviar mensajes a la sala"
+msgstr "Sadece oda sakinlerinin konferansa mesaj göndermesine izin veriliyor"
 
 #: src/mod_muc_room.erl:620
 msgid "Only occupants are allowed to send queries to the conference"
-msgstr "Solo los ocupantes pueden enviar solicitudes a la sala"
+msgstr "Sadece oda sakinlerinin konferansa sorgu göndermesine izin veriliyor"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1843
 #: deps/xmpp/src/pubsub_meta_data.erl:848
 msgid "Only publishers may publish"
-msgstr "Solo los publicadores pueden publicar"
+msgstr ""
 
 #: src/mod_muc.erl:227
 msgid "Only service administrators are allowed to send service messages"
-msgstr ""
-"Solo los administradores del servicio tienen permiso para enviar mensajes de "
-"servicio"
+msgstr "Sadece servis yöneticileri servis mesajı gönderebilirler"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1391
 msgid "Only those on a whitelist may associate leaf nodes with the collection"
 msgstr ""
-"Solo quienes están en una lista blanca pueden asociar nodos hoja a la "
-"colección"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1332
 #: deps/xmpp/src/pubsub_meta_data.erl:822
 msgid "Only those on a whitelist may subscribe and retrieve items"
 msgstr ""
-"Solo quienes están en una lista blanca pueden suscribirse y recibir elementos"
 
 #: src/mod_vcard_mnesia.erl:109 src/mod_vcard_mnesia.erl:123
 #: src/mod_vcard_sql.erl:166 src/mod_vcard_sql.erl:180
 #: src/mod_vcard_ldap.erl:336 src/mod_vcard_ldap.erl:349
 msgid "Organization Name"
-msgstr "Nombre de la organización"
+msgstr "Kurum İsmi"
 
 #: src/mod_vcard_mnesia.erl:110 src/mod_vcard_mnesia.erl:124
 #: src/mod_vcard_sql.erl:167 src/mod_vcard_sql.erl:181
 #: src/mod_vcard_ldap.erl:337 src/mod_vcard_ldap.erl:350
 msgid "Organization Unit"
-msgstr "Unidad de la organización"
+msgstr "Kurumun İlgili Birimi"
 
 #: src/mod_configure.erl:496
 msgid "Outgoing s2s Connections"
-msgstr "Conexiones S2S salientes"
+msgstr "Giden s2s Bağlantıları"
 
 #: src/ejabberd_web_admin.erl:816
 msgid "Outgoing s2s Connections:"
-msgstr "Conexiones S2S salientes:"
+msgstr "Giden s2s Bağlantıları:"
 
 #: src/mod_pubsub.erl:1355 src/mod_pubsub.erl:1450 src/mod_pubsub.erl:1624
 #: src/mod_pubsub.erl:2230 src/mod_pubsub.erl:2296 src/mod_pubsub.erl:2506
@@ -1604,19 +1636,20 @@ msgstr "Conexiones S2S salientes:"
 #: src/mod_mix.erl:677 src/mod_muc_room.erl:3353 src/mod_muc_room.erl:3398
 #: src/mod_muc_room.erl:4208
 msgid "Owner privileges required"
-msgstr "Se requieren privilegios de propietario de la sala"
+msgstr "Sahip yetkileri gerekli"
 
 #: src/mod_offline.erl:1002
 msgid "Packet"
-msgstr "Paquete"
+msgstr "Paket"
 
 #: src/mod_multicast.erl:347
+#, fuzzy
 msgid "Packet relay is denied by service policy"
-msgstr "Se ha denegado el reenvío del paquete por política del servicio"
+msgstr "Odanın oluşturulması servis politikası gereği reddedildi"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1849 deps/xmpp/src/muc_request.erl:330
 msgid "Participant"
-msgstr "Participante"
+msgstr ""
 
 #: src/mod_configure.erl:999 src/mod_configure.erl:1046
 #: src/mod_configure.erl:1334 src/mod_configure.erl:1523
@@ -1624,50 +1657,51 @@ msgstr "Participante"
 #: src/mod_muc_log.erl:803 src/ejabberd_oauth.erl:502
 #: deps/xmpp/src/muc_roomconfig.erl:1966
 msgid "Password"
-msgstr "Contraseña"
+msgstr "Parola"
 
 #: src/mod_configure.erl:1003
 msgid "Password Verification"
-msgstr "Verificación de la contraseña"
+msgstr "Parola Doğrulaması"
 
 #: src/mod_register_web.erl:300 src/mod_register_web.erl:417
 msgid "Password Verification:"
-msgstr "Verificación de la contraseña:"
+msgstr "Parola Doğrulaması:"
 
 #: src/ejabberd_web_admin.erl:946 src/mod_register_web.erl:277
 #: src/mod_register_web.erl:520
 msgid "Password:"
-msgstr "Contraseña:"
+msgstr "Parola:"
 
 #: src/mod_configure.erl:907
 msgid "Path to Dir"
-msgstr "Ruta al directorio"
+msgstr "Dizinin Yolu"
 
 #: src/mod_configure.erl:861 src/mod_configure.erl:873
 #: src/mod_configure.erl:885 src/mod_configure.erl:896
 msgid "Path to File"
-msgstr "Ruta al fichero"
+msgstr "Dosyanın Yolu"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:772
 msgid "Payload type"
-msgstr "Tipo de payload"
+msgstr ""
 
 #: src/mod_roster.erl:1004
 msgid "Pending"
-msgstr "Pendiente"
+msgstr "Sıra Bekleyen"
 
 #: src/ejabberd_web_admin.erl:479
 msgid "Period: "
-msgstr "Periodo: "
+msgstr "Periyot:"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1809
 #: deps/xmpp/src/pubsub_publish_options.erl:281
 msgid "Persist items to storage"
-msgstr "Persistir elementos al almacenar"
+msgstr "Öğeleri depoda kalıcı hale getir"
 
 #: src/mod_muc_admin.erl:535
+#, fuzzy
 msgid "Persistent"
-msgstr "Permanente"
+msgstr "Odayı kalıcı hale getir"
 
 #: src/mod_adhoc.erl:155 src/mod_adhoc.erl:245
 msgid "Ping"
@@ -1675,7 +1709,7 @@ msgstr "Ping"
 
 #: src/mod_ping.erl:178
 msgid "Ping query is incorrect"
-msgstr "La petición de Ping es incorrecta"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:1210
 msgid ""
@@ -1683,13 +1717,13 @@ msgid ""
 "If you are using the ODBC module, you also need to backup your SQL database "
 "separately."
 msgstr ""
-"Ten en cuenta que estas opciones solo harán copia de seguridad de la base de "
-"datos Mnesia embebida. Si estás usando ODBC tendrás que hacer también copia "
-"de seguridad de tu base de datos SQL."
+"Bu seçeneklerin sadece gömülü Mnesia veritabanını yedekleyeceğine dikkat "
+"edin. Eğer ODBC modülünü kullanıyorsanız, SQL veritabanınızı da ayrıca "
+"yedeklemeniz gerekiyor."
 
 #: src/mod_muc_room.erl:1105
 msgid "Please, wait for a while before sending new voice request"
-msgstr "Por favor, espera un poco antes de enviar otra petición de voz"
+msgstr "Lütfen yeni bir ses isteği göndermeden önce biraz bekleyin"
 
 #: src/mod_adhoc.erl:260
 msgid "Pong"
@@ -1697,342 +1731,350 @@ msgstr "Pong"
 
 #: src/mod_roster.erl:168
 msgid "Possessing 'ask' attribute is not allowed by RFC6121"
-msgstr "Poseer el atributo 'ask' no está permitido por RFC6121"
+msgstr ""
 
 #: deps/xmpp/src/muc_roomconfig.erl:1992
 msgid "Present real Jabber IDs to"
-msgstr "Los Jabber ID reales pueden verlos"
+msgstr "Gerçek Jabber ID'lerini göster :"
 
 #: src/mod_stream_mgmt.erl:788
 msgid "Previous session PID has been killed"
-msgstr "El proceso de la sesión previa ha sido cerrado"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:786
 msgid "Previous session PID has exited"
-msgstr "El proceso de la sesión previa ha terminado"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:784
 msgid "Previous session PID is dead"
-msgstr "El proceso de la sesión previa está muerto"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:780
+#, fuzzy
 msgid "Previous session not found"
-msgstr "La sesión previa no ha sido encontrada"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_stream_mgmt.erl:782
 msgid "Previous session timed out"
-msgstr "La sesión previa ha caducado"
+msgstr ""
 
 #: src/mod_pubsub.erl:1387
 msgid "PubSub subscriber request"
-msgstr "Petición de subscriptor de PubSub"
+msgstr "PubSub üye isteği"
 
 #: src/mod_muc_admin.erl:534
 msgid "Public"
-msgstr "Público"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_meta_data.erl:865
+#, fuzzy
 msgid "Publish model"
-msgstr "Modelo de publicación"
+msgstr "Yayıncı modelini belirtiniz"
 
 #: src/mod_pubsub.erl:4171
 msgid "Publish-Subscribe"
-msgstr "Servicio de Publicar-Subscribir"
+msgstr "Yayınla-Üye Ol"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1877
 msgid "Purge all items when the relevant publisher goes offline"
-msgstr "Borra todos los elementos cuando el publicador relevante se desconecta"
+msgstr "İlgili yayıncı çevirimdışı olunca tüm onunla ilgili olanları sil"
 
 #: src/mod_push.erl:354
+#, fuzzy
 msgid "Push record not found"
-msgstr "No se encontró registro Push"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_muc_room.erl:615
 msgid "Queries to the conference members are not allowed in this room"
-msgstr "En esta sala no se permiten solicitudes a los miembros de la sala"
+msgstr "Bu odada konferans üyelerine sorgu yapılmasına izin verilmiyor"
 
 #: src/mod_blocking.erl:76 src/mod_mix_pam.erl:311 src/mod_roster.erl:157
 #: src/mod_private.erl:199 src/mod_disco.erl:305 src/mod_disco.erl:362
 #: src/mod_offline.erl:331 src/mod_privacy.erl:134 src/mod_sic.erl:77
 msgid "Query to another users is forbidden"
-msgstr "Enviar solicitudes a otros usuarios está prohibido"
+msgstr ""
 
 #: src/mod_configure.erl:804 src/ejabberd_web_admin.erl:1506
 msgid "RAM and disc copy"
-msgstr "Copia en RAM y disco"
+msgstr "RAM ve disk kopyala"
 
 #: src/mod_configure.erl:802 src/ejabberd_web_admin.erl:1505
 msgid "RAM copy"
-msgstr "Copia en RAM"
+msgstr "RAM kopyala"
 
 #: src/ejabberd_web_admin.erl:1117
 msgid "RPC Call Error"
-msgstr "Error en la llamada RPC"
+msgstr "RPC Çağrı Hatası"
 
 #: src/mod_announce.erl:519
 msgid "Really delete message of the day?"
-msgstr "¿Está seguro de quere borrar el mensaje del dia?"
+msgstr "Günün mesajını silmek istediğinize emin misiniz?"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:643
 msgid "Receive notification from all descendent nodes"
-msgstr "Recibir notificaciones de todos los nodos descendientes"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:638
 msgid "Receive notification from direct child nodes only"
-msgstr "Recibir notificaciones solo de los nodos que son hijos directos"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:608
 msgid "Receive notification of new items only"
-msgstr "Recibir notificaciones solo de nuevos elementos"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:612
 msgid "Receive notification of new nodes only"
-msgstr "Recibir notificaciones solo de nuevos nodos"
+msgstr ""
 
 #: src/mod_muc_room.erl:543 src/mod_muc_room.erl:592
 msgid "Recipient is not in the conference room"
-msgstr "El receptor no está en la sala de conferencia"
+msgstr "Alıcı konferans odasında değil"
 
 #: src/mod_register_web.erl:307
 msgid "Register"
-msgstr "Registrar"
+msgstr "Kayıt Ol"
 
 #: src/mod_register_web.erl:214 src/mod_register_web.erl:242
 #: src/mod_register_web.erl:250
+#, fuzzy
 msgid "Register an XMPP account"
-msgstr "Registrar una cuenta XMPP"
+msgstr "Bir XMPP hesabı kaydet"
 
 #: src/ejabberd_web_admin.erl:588
 msgid "Registered Users"
-msgstr "Usuarios registrados"
+msgstr "Kayıtlı Kullanıcılar"
 
 #: src/ejabberd_web_admin.erl:810 src/ejabberd_web_admin.erl:829
 msgid "Registered Users:"
-msgstr "Usuarios registrados:"
+msgstr "Kayıtlı Kullanıcılar:"
 
 #: src/mod_configure.erl:808 src/ejabberd_web_admin.erl:1508
 msgid "Remote copy"
-msgstr "Copia remota"
+msgstr "Uzak kopyala"
 
 #: src/mod_roster.erl:1052
 msgid "Remove"
-msgstr "Borrar"
+msgstr "Kaldır"
 
 #: src/mod_offline.erl:1083
 msgid "Remove All Offline Messages"
-msgstr "Borrar todos los mensajes diferidos"
+msgstr "Tüm Çevirim-dışı Mesajları Kaldır"
 
 #: src/mod_configure.erl:1521 src/ejabberd_web_admin.erl:953
 msgid "Remove User"
-msgstr "Eliminar usuario"
+msgstr "Kullanıcıyı Kaldır"
 
 #: src/ejabberd_sm.erl:453
 msgid "Replaced by new connection"
-msgstr "Reemplazado por una nueva conexión"
+msgstr "Eski bağlantı yenisi ile değiştirildi"
 
 #: src/mod_mix_pam.erl:292 src/mod_muc_room.erl:210 src/mod_muc_room.erl:219
 #: src/mod_muc_room.erl:855
 msgid "Request has timed out"
-msgstr "La petición ha caducado"
+msgstr ""
 
 #: src/mod_muc_room.erl:744 src/mod_muc_room.erl:759
 msgid "Request is ignored"
-msgstr "La petición ha sido ignorada"
+msgstr ""
 
 #: deps/xmpp/src/muc_request.erl:340
 msgid "Requested role"
-msgstr "Rol solicitado"
+msgstr ""
 
 #: src/mod_configure.erl:1407
 msgid "Resources"
-msgstr "Recursos"
+msgstr "Kaynaklar"
 
 #: src/ejabberd_web_admin.erl:1106
 msgid "Restart"
-msgstr "Reiniciar"
+msgstr "Tekrar Başlat"
 
 #: src/mod_configure.erl:157 src/mod_configure.erl:570
 #: src/mod_configure.erl:918
 msgid "Restart Service"
-msgstr "Reiniciar el servicio"
+msgstr "Servisi Tekrar Başlat"
 
 #: src/mod_configure.erl:146 src/mod_configure.erl:584
 msgid "Restore"
-msgstr "Restaurar"
+msgstr "Yedekten Geri Al"
 
 #: src/mod_configure.erl:868
 msgid "Restore Backup from File at "
-msgstr "Restaura copia de seguridad desde el fichero en "
+msgstr "Dosyadaki Yedekten Geri Al : "
 
 #: src/ejabberd_web_admin.erl:1240
 msgid ""
 "Restore binary backup after next ejabberd restart (requires less memory):"
 msgstr ""
-"Restaurar copia de seguridad binaria en el siguiente reinicio de ejabberd "
-"(requiere menos memoria que si instantánea):"
+"ejabberd'nin bir sonraki tekrar başlatılışında ikili yedekten geri al (daha "
+"az bellek gerektirir)"
 
 #: src/ejabberd_web_admin.erl:1230
 msgid "Restore binary backup immediately:"
-msgstr "Restaurar inmediatamente copia de seguridad binaria:"
+msgstr "Hemen ikili yedekten geri al:"
 
 #: src/ejabberd_web_admin.erl:1260
 msgid "Restore plain text backup immediately:"
-msgstr "Restaurar copias de seguridad de texto plano inmediatamente:"
+msgstr "Hemen düz metin yedekten geri al"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1690
 msgid "Roles and Affiliations that May Retrieve Member List"
-msgstr "Roles y Afiliaciones que pueden obtener la lista de miembros"
+msgstr ""
 
 #: deps/xmpp/src/muc_roomconfig.erl:1864
 msgid "Roles for which Presence is Broadcasted"
-msgstr "Roles para los que sí se difunde su Presencia"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:748 deps/xmpp/src/muc_roomconfig.erl:1438
+#, fuzzy
 msgid "Roles that May Send Private Messages"
-msgstr "Roles que pueden enviar mensajes privados"
+msgstr "Kullanıcıların özel mesaj göndermelerine izin ver"
 
 #: src/mod_muc_log.erl:639
 msgid "Room Configuration"
-msgstr "Configuración de la sala"
+msgstr "Oda Ayarları"
 
 #: src/mod_muc_log.erl:659
 msgid "Room Occupants"
-msgstr "Ocupantes de la sala"
+msgstr "Oda Sakini Sayısı"
 
 #: src/mod_muc.erl:570
 msgid "Room creation is denied by service policy"
-msgstr "Se te ha denegado crear la sala por política del servicio"
+msgstr "Odanın oluşturulması servis politikası gereği reddedildi"
 
 #: src/mod_muc_log.erl:830 deps/xmpp/src/muc_roominfo.erl:779
 #: deps/xmpp/src/muc_roomconfig.erl:1923
 msgid "Room description"
-msgstr "Descripción de la sala"
+msgstr "Oda tanımı"
 
 #: src/mod_muc_room.erl:882
+#, fuzzy
 msgid "Room terminates"
-msgstr "Cerrando la sala"
+msgstr "Oda başlığı"
 
 #: src/mod_muc_admin.erl:538 src/mod_muc_log.erl:794
 #: deps/xmpp/src/muc_roomconfig.erl:1937
 msgid "Room title"
-msgstr "Título de la sala"
+msgstr "Oda başlığı"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1900
 msgid "Roster groups allowed to subscribe"
-msgstr "Grupos de contactos que pueden suscribirse"
+msgstr "Üye olunmasına izin verilen kontak listesi grupları"
 
 #: src/mod_roster.erl:1056
+#, fuzzy
 msgid "Roster of ~ts"
-msgstr "Lista de contactos de ~ts"
+msgstr "Kontak Listesi : "
 
 #: src/mod_configure.erl:1403
 msgid "Roster size"
-msgstr "Tamaño de la lista de contactos"
+msgstr "İsim listesi boyutu"
 
 #: src/mod_roster.erl:1174
+#, fuzzy
 msgid "Roster:"
-msgstr "Lista de contactos:"
+msgstr "Kontak Listesi"
 
 #: src/mod_configure.erl:498 src/ejabberd_web_admin.erl:1071
 msgid "Running Nodes"
-msgstr "Nodos funcionando"
+msgstr "Çalışan Düğümler"
 
 #: src/mod_proxy65.erl:135
+#, fuzzy
 msgid "SOCKS5 Bytestreams"
-msgstr "SOCKS5 Bytestreams"
+msgstr "ejabberd SOCKS5 Bytestreams modülü"
 
 #: src/mod_muc_log.erl:473
 msgid "Saturday"
-msgstr "Sábado"
+msgstr "Cumartesi"
 
 #: src/ejabberd_web_admin.erl:1443
 msgid "Script check"
-msgstr "Comprobación de script"
+msgstr "Betik kontrolü"
 
 #: src/mod_vcard.erl:475
 msgid "Search Results for "
-msgstr "Buscar resultados por "
+msgstr "Arama sonuçları : "
 
 #: deps/xmpp/src/mam_query.erl:330
 msgid "Search from the date"
-msgstr "Buscar desde la fecha"
+msgstr ""
 
 #: deps/xmpp/src/mam_query.erl:358
 msgid "Search the text"
-msgstr "Buscar el texto"
+msgstr ""
 
 #: deps/xmpp/src/mam_query.erl:344
 msgid "Search until the date"
-msgstr "Buscar hasta la fecha"
+msgstr ""
 
 #: src/mod_vcard.erl:440
 msgid "Search users in "
-msgstr "Buscar usuarios en "
+msgstr "Kullanıcılarda arama yap : "
 
 #: src/ejabberd_web_admin.erl:1412
 msgid "Select All"
-msgstr "Seleccionar todo"
+msgstr ""
 
 #: src/mod_announce.erl:613
 msgid "Send announcement to all online users"
-msgstr "Enviar anuncio a todos los usuarios conectados"
+msgstr "Duyuruyu tüm bağlı kullanıcılara yolla"
 
 #: src/mod_configure.erl:941 src/mod_configure.erl:981 src/mod_announce.erl:615
 msgid "Send announcement to all online users on all hosts"
-msgstr "Enviar anuncio a todos los usuarios conectados en todos los dominios"
+msgstr "Duyuruyu tüm sunuculardaki tüm bağlı kullanıcılara yolla"
 
 #: src/mod_announce.erl:609
 msgid "Send announcement to all users"
-msgstr "Enviar anuncio a todos los usuarios"
+msgstr "Duyuruyu tüm kullanıcılara yolla"
 
 #: src/mod_announce.erl:611
 msgid "Send announcement to all users on all hosts"
-msgstr "Enviar anuncio a todos los usuarios en todos los dominios"
+msgstr "Tüm sunuculardaki tüm kullanıcılara duyuru yolla"
 
 #: src/mod_muc_log.erl:486
 msgid "September"
-msgstr "Septiembre"
+msgstr "Eylül"
 
 #: src/mod_register_web.erl:274 src/mod_register_web.erl:406
 #: src/mod_register_web.erl:517
 msgid "Server:"
-msgstr "Servidor:"
+msgstr "Sunucu:"
 
 #: src/mod_stun_disco.erl:496
 msgid "Service list retrieval timed out"
-msgstr "Ha caducado la obtención de la lista de servicio"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:790
 msgid "Session state copying timed out"
-msgstr "El copiado del estado de la sesión ha caducado"
+msgstr ""
 
 #: src/mod_announce.erl:617
 msgid "Set message of the day and send to online users"
-msgstr "Poner mensaje del dia y enviar a todos los usuarios conectados"
+msgstr "Günün mesajını belirle"
 
 #: src/mod_announce.erl:619
 msgid "Set message of the day on all hosts and send to online users"
 msgstr ""
-"Poner mensaje del día en todos los dominios y enviar a los usuarios "
-"conectados"
+"Tüm sunucularda günün mesajını belirle ve bağlı tüm kullanıcılara gönder"
 
 #: src/mod_shared_roster.erl:884 src/mod_shared_roster.erl:930
 #: src/mod_shared_roster.erl:1037
 msgid "Shared Roster Groups"
-msgstr "Grupos Compartidos"
+msgstr "Paylaşımlı Kontak Listesi Grupları"
 
 #: src/ejabberd_web_admin.erl:501
 msgid "Show Integral Table"
-msgstr "Mostrar Tabla Integral"
+msgstr "Önemli Tabloyu Göster"
 
 #: src/ejabberd_web_admin.erl:498
 msgid "Show Ordinary Table"
-msgstr "Mostrar Tabla Ordinaria"
+msgstr "Sıradan Tabloyu Göster"
 
 #: src/mod_configure.erl:159 src/mod_configure.erl:572
 #: src/mod_configure.erl:958
 msgid "Shut Down Service"
-msgstr "Detener el servicio"
+msgstr "Servisi Kapat"
 
 #: src/mod_register_web.erl:290
 #, fuzzy
@@ -2040,75 +2082,75 @@ msgid ""
 "Some XMPP clients can store your password on the computer, but for safety "
 "reasons you should do this on your personal computers ."
 msgstr ""
-"Algunos clientes XMPP pueden recordar tu contraseña en la máquina. Usa esa "
-"opción solo si confías en que la máquina que usas es segura."
+"Bazı XMPP istemcileri parolanızı bilgisayarınızda saklayabilir. Bu özelliği "
+"ancak bilgisayarın güvenli olduğuna güveniyorsanız kullanın."
 
 #: deps/xmpp/src/pubsub_node_config.erl:1344
 #: deps/xmpp/src/pubsub_publish_options.erl:322
 msgid "Specify the access model"
-msgstr "Especifica el modelo de acceso"
+msgstr "Erişim modelini belirtiniz"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1726
 msgid "Specify the event message type"
-msgstr "Especifica el tipo del mensaje de evento"
+msgstr "Olay mesaj tipini belirtiniz"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1861
 msgid "Specify the publisher model"
-msgstr "Especificar el modelo del publicante"
+msgstr "Yayıncı modelini belirtiniz"
 
 #: deps/xmpp/src/captcha_form.erl:821
 msgid "Stanza ID"
-msgstr "ID del paquete"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1592
 msgid "Statically specify a replyto of the node owner(s)"
-msgstr "Especificar de forma estática un 'replyto' de dueño(s) del nodo"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:506 src/ejabberd_web_admin.erl:1101
 #: src/ejabberd_web_admin.erl:1795 src/ejabberd_web_admin.erl:1808
 #: src/ejabberd_web_admin.erl:1820 src/mod_muc_admin.erl:480
 msgid "Statistics"
-msgstr "Estadísticas"
+msgstr "İstatistikler"
 
 #: src/ejabberd_web_admin.erl:1360
 msgid "Statistics of ~p"
-msgstr "Estadísticas de ~p"
+msgstr "~p istatistikleri"
 
 #: src/ejabberd_web_admin.erl:1108
 msgid "Stop"
-msgstr "Detener"
+msgstr "Durdur"
 
 #: src/mod_configure.erl:499 src/ejabberd_web_admin.erl:1072
 msgid "Stopped Nodes"
-msgstr "Nodos detenidos"
+msgstr "Durdurulmuş Düğümler"
 
 #: src/ejabberd_web_admin.erl:1179
 msgid "Storage Type"
-msgstr "Tipo de almacenamiento"
+msgstr "Depolama Tipi"
 
 #: src/ejabberd_web_admin.erl:1220
 msgid "Store binary backup:"
-msgstr "Guardar copia de seguridad binaria:"
+msgstr "İkili yedeği sakla:"
 
 #: src/ejabberd_web_admin.erl:1250
 msgid "Store plain text backup:"
-msgstr "Guardar copia de seguridad en texto plano:"
+msgstr "Düz metin yedeği sakla:"
 
 #: src/mod_stream_mgmt.erl:363
 msgid "Stream management is already enabled"
-msgstr "Ya está activada la administración de la conexión"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:345
 msgid "Stream management is not enabled"
-msgstr "No está activada la administración de la conexión"
+msgstr ""
 
 #: src/mod_configure.erl:945 src/mod_configure.erl:985 src/mod_announce.erl:524
 msgid "Subject"
-msgstr "Asunto"
+msgstr "Konu"
 
 #: src/ejabberd_web_admin.erl:1190 src/mod_shared_roster.erl:1055
 msgid "Submit"
-msgstr "Enviar"
+msgstr "Gönder"
 
 #: src/ejabberd_web_admin.erl:643 src/ejabberd_web_admin.erl:937
 #: src/ejabberd_web_admin.erl:1093 src/ejabberd_web_admin.erl:1121
@@ -2116,20 +2158,20 @@ msgstr "Enviar"
 #: src/mod_roster.erl:1060 src/mod_shared_roster.erl:934
 #: src/mod_shared_roster.erl:1042 src/mod_offline.erl:993
 msgid "Submitted"
-msgstr "Enviado"
+msgstr "Gönderilenler"
 
 #: deps/xmpp/src/pubsub_subscribe_authorization.erl:372
 msgid "Subscriber Address"
-msgstr "Dirección del subscriptor"
+msgstr "Üye Olanın Adresi"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1847
 #: deps/xmpp/src/pubsub_meta_data.erl:852
 msgid "Subscribers may publish"
-msgstr "Los suscriptores pueden publicar"
+msgstr ""
 
 #: src/mod_roster.erl:1003
 msgid "Subscription"
-msgstr "Subscripción"
+msgstr "Üyelik"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1312
 #: deps/xmpp/src/pubsub_meta_data.erl:802
@@ -2137,86 +2179,81 @@ msgid ""
 "Subscription requests must be approved and only subscribers may retrieve "
 "items"
 msgstr ""
-"Las peticiones de suscripción deben ser aprobadas y solo los suscriptores "
-"pueden obtener elementos"
 
 #: src/mod_muc_room.erl:4219
 msgid "Subscriptions are not allowed"
-msgstr "Las subscripciones no están permitidas"
+msgstr ""
 
 #: src/mod_muc_log.erl:474
 msgid "Sunday"
-msgstr "Domingo"
+msgstr "Pazar"
 
 #: deps/xmpp/src/captcha_form.erl:777
 msgid "Text associated with a picture"
-msgstr "Texto asociado con una imagen"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:701
 msgid "Text associated with a sound"
-msgstr "Texto asociado con un sonido"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:881
 msgid "Text associated with a video"
-msgstr "Texto asociado con un vídeo"
+msgstr ""
 
 #: deps/xmpp/src/captcha_form.erl:851
 msgid "Text associated with speech"
-msgstr "Texto asociado con una charla"
+msgstr ""
 
 #: src/mod_muc_room.erl:1242 src/mod_muc_room.erl:2104
 #: src/mod_muc_room.erl:4248
 msgid "That nickname is already in use by another occupant"
-msgstr "Ese apodo ya está siendo usado por otro ocupante"
+msgstr "Takma isim odanın başka bir sakini tarafından halihazırda kullanımda"
 
 #: src/mod_muc.erl:1031 src/mod_muc_room.erl:1254 src/mod_muc_room.erl:2118
 #: src/mod_muc_room.erl:4256
 msgid "That nickname is registered by another person"
-msgstr "El apodo ya está registrado por otra persona"
+msgstr "O takma isim başka biri tarafından kaydettirilmiş"
 
 #: src/ejabberd_captcha.erl:267
 msgid "The CAPTCHA is valid."
-msgstr "El CAPTCHA es válido."
+msgstr "İnsan doğrulaması (captcha) geçerli."
 
 #: src/mod_block_strangers.erl:150 src/mod_register.erl:200
 #: src/mod_muc_room.erl:836 src/mod_muc_room.erl:4181
 #: src/ejabberd_captcha.erl:218
 msgid "The CAPTCHA verification has failed"
-msgstr "La verificación de CAPTCHA ha fallado"
+msgstr "CAPTCHA doğrulaması başarısız oldu"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:529
 msgid "The DateTime at which a leased subscription will end or has ended"
 msgstr ""
-"La FechayHora en la que una suscripción prestada acabará o ha terminado"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:657
 msgid "The JID of the node creator"
-msgstr "El JID del creador del nodo"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1493
 #: deps/xmpp/src/pubsub_meta_data.erl:625
 msgid "The JIDs of those to contact with questions"
-msgstr "Los JIDs a quienes contactar con preguntas"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_meta_data.erl:726
 msgid "The JIDs of those with an affiliation of owner"
-msgstr "Los JIDs de quienes tienen una afiliación de dueños"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_meta_data.erl:743
 msgid "The JIDs of those with an affiliation of publisher"
-msgstr "Los JIDs de quienes tienen una afiliación de publicadores"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_get_pending.erl:248
 msgid "The NodeID of the relevant node"
-msgstr "El NodoID del nodo relevante"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1360
 msgid ""
 "The URL of an XSL transformation which can be applied to payloads in order "
 "to generate an appropriate message body element."
 msgstr ""
-"La URL de una transformación XSL que puede aplicarse a payloads para generar "
-"un elemento de contenido del mensaje apropiado."
 
 #: deps/xmpp/src/pubsub_node_config.erl:1509
 msgid ""
@@ -2224,151 +2261,140 @@ msgid ""
 "in order to generate a valid Data Forms result that the client could display "
 "using a generic Data Forms rendering engine"
 msgstr ""
-"La URL de una transformación XSL que puede aplicarse al formato de payload "
-"para generar un resultado de Formulario de Datos válido, que el cliente "
-"pueda mostrar usando un mecanismo de dibujado genérico de Formulario de Datos"
 
 #: src/mod_register_web.erl:601
 msgid "The account already exists"
-msgstr "La cuenta ya existe"
+msgstr ""
 
 #: src/mod_register_web.erl:611
 #, fuzzy
 msgid "The account was not unregistered"
-msgstr "La cuenta no fue eliminada"
+msgstr "XMPP hesabınız başarıyla silindi."
 
 #: deps/xmpp/src/push_summary.erl:397
 msgid "The body text of the last received message"
-msgstr "El contenido de texto del último mensaje recibido"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1442
 msgid "The child nodes (leaf or collection) associated with a collection"
 msgstr ""
-"Los nodos hijos (ya sean hojas o colecciones) asociados con una colección"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1476
 msgid "The collections with which a node is affiliated"
-msgstr "Las colecciones a las que un nodo está afiliado"
+msgstr "Bir düğüm ile bağlantılı koleksiyonlar"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:642
 msgid "The datetime when the node was created"
-msgstr "La fechayhora cuando el nodo fue creado"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1633
 #: deps/xmpp/src/pubsub_meta_data.erl:693
+#, fuzzy
 msgid "The default language of the node"
-msgstr "El nombre por defecto del nodo"
+msgstr "Düğüm için dostane bir isim"
 
 #: src/mod_muc_room.erl:450
 msgid "The feature requested is not supported by the conference"
 msgstr ""
-"La característica solicitada no está soportada por la sala de conferencia"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1425
 msgid "The list of JIDs that may associate leaf nodes with a collection"
-msgstr "La lista de JIDs que pueden asociar nodos hijo con una colección"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1459
 msgid ""
 "The maximum number of child nodes that can be associated with a collection"
-msgstr "El número máximo de nodos hijo que pueden asociarse a una colección"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:512
 msgid ""
 "The minimum number of milliseconds between sending any two notification "
 "digests"
 msgstr ""
-"El número mínimo de milisegundos entre dos envíos de resumen de "
-"notificaciones"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:758
+#, fuzzy
 msgid "The name of the node"
-msgstr "El nombre del nodo"
+msgstr "Düğüm için dostane bir isim"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1682
 msgid "The node is a collection node"
-msgstr "El nodo es una colección"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1678
 msgid "The node is a leaf node (default)"
-msgstr "El nodo es un nodo hoja (por defecto)"
+msgstr ""
 
 #: deps/xmpp/src/push_summary.erl:363
 msgid "The number of pending incoming presence subscription requests"
 msgstr ""
-"El número de peticiones de suscripción a presencia que están pendientes de "
-"llegar"
 
 #: deps/xmpp/src/pubsub_meta_data.erl:710
+#, fuzzy
 msgid "The number of subscribers to the node"
-msgstr "El número de suscriptores al nodo"
+msgstr "Bu Jabber ID bu pubsub düğümüne üye olmasına izin verilsin mi?"
 
 #: deps/xmpp/src/push_summary.erl:343
 msgid "The number of unread or undelivered messages"
-msgstr "El número de mensajes sin leer o sin entregar"
+msgstr ""
 
 #: src/mod_register.erl:392
 msgid "The password contains unacceptable characters"
-msgstr "La contraseña contiene caracteres inaceptables"
+msgstr ""
 
 #: src/mod_register.erl:390
 msgid "The password is too weak"
-msgstr "La contraseña es demasiado débil"
+msgstr "Parola çok zayıf"
 
 #: src/mod_register_web.erl:613
+#, fuzzy
 msgid "The password was not changed"
-msgstr "La contraseña no fue cambiada"
+msgstr "Parola çok zayıf"
 
 #: src/mod_register_web.erl:615
+#, fuzzy
 msgid "The passwords are different"
-msgstr "Las contraseñas son diferentes"
+msgstr "Parola çok zayıf"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:591
 msgid "The presence states for which an entity wants to receive notifications"
 msgstr ""
-"Los estados de presencia para los cuales una entidad quiere recibir "
-"notificaciones"
 
 #: src/mod_register.erl:170 src/mod_vcard.erl:231
 msgid "The query is only allowed from local users"
-msgstr "La solicitud está permitida solo para usuarios locales"
+msgstr ""
 
 #: src/mod_roster.erl:198
 msgid "The query must not contain <item/> elements"
-msgstr "La solicitud no debe contener elementos <item/>"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:891
 msgid "The room subject can be modified by participants"
-msgstr "El asunto de la sala puede ser modificado por los participantes"
+msgstr ""
 
 #: deps/xmpp/src/push_summary.erl:381
 msgid "The sender of the last received message"
-msgstr "El emisor del último mensaje recibido"
+msgstr ""
 
 #: src/mod_privacy.erl:268
 msgid ""
 "The stanza MUST contain only one <active/> element, one <default/> element, "
 "or one <list/> element"
 msgstr ""
-"El paquete DEBE contener solo un elemento <active/>, un elemento <default/>, "
-"o un elemento <list/>"
 
 #: deps/xmpp/src/pubsub_subscribe_authorization.erl:388
 msgid "The subscription identifier associated with the subscription request"
 msgstr ""
-"El identificador de suscripción asociado con la petición de suscripción"
 
 #: deps/xmpp/src/pubsub_node_config.erl:2001
 msgid ""
 "The type of node data, usually specified by the namespace of the payload (if "
 "any)"
 msgstr ""
-"El tipo de datos del nodo, usualmente especificado por el namespace del "
-"payload (en caso de haberlo)"
 
 #: src/mod_register_web.erl:605
 msgid "The username is not valid"
-msgstr "El nombre de usuario no es válido"
+msgstr ""
 
 #: src/mod_register_web.erl:268
 #, fuzzy
@@ -2376,7 +2402,7 @@ msgid ""
 "This is case insensitive: \"macbeth\" is the same as \"MacBeth\" and "
 "\"Macbeth\"."
 msgstr ""
-"No importa si usas mayúsculas: macbeth es lo mismo que MacBeth y Macbeth."
+"Burada büyük küçük harfi yapılmaz: macbeth ile MacBeth ve Macbeth aynıdır."
 
 #: src/mod_register_web.erl:252
 #, fuzzy
@@ -2385,267 +2411,275 @@ msgid ""
 "(Jabber ID) will be of the form: username@server. Please read the "
 "instructions carefully before filling in the fields."
 msgstr ""
-"Esta página te permite crear una cuenta XMPP este servidor XMPP. Tu JID "
-"(Jabber IDentificador) será de la forma: nombredeusuario@servidor. Por favor "
-"lee detenidamente las instrucciones para rellenar correctamente los campos."
+"Bu sayfa bu XMPP sunucusunda bir XMPP hesabı oluşturulmasına olanak tanıyor. "
+"Sizin JID'iniz (Jabber Tanımlayıcısı) şu biçemde olacaktır: "
+"kullanici_adi@sunucu. Lütfen alanları doğru doldurabilmek için yönergeleri "
+"dikkatle okuyunuz."
 
 #: src/mod_register_web.erl:507
 #, fuzzy
 msgid "This page allows unregistering an XMPP account on this XMPP server."
-msgstr "Esta página te permite borrar tu cuenta XMPP en este servidor XMPP."
+msgstr ""
+"Bu sayfa bu XMPP sunucusundan bir XMPP hesabının kaydını silmeye olanak "
+"tanıyor."
 
 #: src/mod_muc_log.erl:805
 msgid "This room is not anonymous"
-msgstr "Sala no anónima"
+msgstr "Bu oda anonim değil"
 
 #: src/mod_multicast.erl:498
 msgid "This service can not process the address: ~s"
-msgstr "Este servicio no puede procesar la dirección: ~s"
+msgstr ""
 
 #: src/mod_muc_log.erl:471
 msgid "Thursday"
-msgstr "Jueves"
+msgstr "Perşembe"
 
 #: src/mod_offline.erl:999
 msgid "Time"
-msgstr "Fecha"
+msgstr "Zaman"
 
 #: src/mod_configure.erl:923 src/mod_configure.erl:963
 msgid "Time delay"
-msgstr "Retraso temporal"
+msgstr "Zaman gecikmesi"
 
 #: src/mod_stream_mgmt.erl:255
 msgid "Timed out waiting for stream resumption"
-msgstr "Ha pasado demasiado tiempo esperando que la conexión se restablezca"
+msgstr ""
 
 #: src/mod_offline.erl:1001
 msgid "To"
-msgstr "Para"
+msgstr "Kime"
 
 #: src/mod_register.erl:225
 msgid "To register, visit ~s"
-msgstr "Para registrarte, visita ~s"
+msgstr ""
 
 #: src/mod_configure.erl:666
+#, fuzzy
 msgid "To ~ts"
-msgstr "A ~ts"
+msgstr "Kime ~s"
 
 #: src/ejabberd_oauth.erl:510
 msgid "Token TTL"
-msgstr "Token TTL"
+msgstr ""
 
 #: src/mod_fail2ban.erl:219
 msgid ""
 "Too many (~p) failed authentications from this IP address (~s). The address "
 "will be unblocked at ~s UTC"
 msgstr ""
-"Demasiadas (~p) autenticaciones fallidas de esta dirección IP (~s). La "
-"dirección será desbloqueada en ~s UTC"
 
 #: src/mod_muc_room.erl:2778 src/mod_muc_room.erl:3412
 msgid "Too many <item/> elements"
-msgstr "Demasiados elementos <item/>"
+msgstr ""
 
 #: src/mod_privacy.erl:152
 msgid "Too many <list/> elements"
-msgstr "Demasiados elementos <list/>"
+msgstr ""
 
 #: src/mod_block_strangers.erl:127 src/mod_register.erl:249
 #: src/mod_muc_room.erl:2188
 msgid "Too many CAPTCHA requests"
-msgstr "Demasiadas peticiones de CAPTCHA"
+msgstr "Çok fazla CAPTCHA isteği"
 
 #: src/mod_proxy65_service.erl:234
 msgid "Too many active bytestreams"
-msgstr "Demasiados bytestreams activos"
+msgstr ""
 
 #: src/gen_iq_handler.erl:90 src/mod_muc_room.erl:1162
 msgid "Too many child elements"
-msgstr "Demasiados subelementos"
+msgstr ""
 
 #: src/mod_multicast.erl:344
 msgid "Too many receiver fields were specified"
-msgstr "Se han especificado demasiados campos de destinatario"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:206
 msgid "Too many unacked stanzas"
-msgstr "Demasiados mensajes sin haber reconocido  recibirlos"
+msgstr ""
 
 #: src/mod_muc_room.erl:2063
+#, fuzzy
 msgid "Too many users in this conference"
-msgstr "Demasiados usuarios en esta sala"
+msgstr "Bu konferansta ses istekleri etkisizleştirilmiş durumda."
 
 #: src/mod_muc_admin.erl:482
+#, fuzzy
 msgid "Total rooms"
-msgstr "Salas totales"
+msgstr "Sohbet Odaları"
 
 #: src/mod_muc_room.erl:317
 msgid "Traffic rate limit is exceeded"
-msgstr "Se ha exedido el límite de tráfico"
+msgstr "Trafik oran sınırı aşıldı"
 
 #: src/ejabberd_web_admin.erl:1380
 msgid "Transactions Aborted:"
-msgstr "Transacciones abortadas:"
+msgstr "İptal Edilen Hareketler (Transactions):"
 
 #: src/ejabberd_web_admin.erl:1376
 msgid "Transactions Committed:"
-msgstr "Transacciones finalizadas:"
+msgstr "Tamamlanan Hareketler (Transactions Committed):"
 
 #: src/ejabberd_web_admin.erl:1388
 msgid "Transactions Logged:"
-msgstr "Transacciones registradas:"
+msgstr "Kaydı Tutulan Hareketler (Transactions):"
 
 #: src/ejabberd_web_admin.erl:1384
 msgid "Transactions Restarted:"
-msgstr "Transacciones reiniciadas:"
+msgstr "Tekrar Başlatılan Hareketler (Transactions):"
 
 #: src/mod_muc_log.erl:469
 msgid "Tuesday"
-msgstr "Martes"
+msgstr "Salı"
 
 #: deps/xmpp/src/muc_roominfo.erl:831
 msgid "URL for Archived Discussion Logs"
-msgstr "URL del registro de discusiones archivadas"
+msgstr ""
 
 #: src/mod_block_strangers.erl:131 src/mod_register.erl:253
 #: src/mod_muc_room.erl:2197
 msgid "Unable to generate a CAPTCHA"
-msgstr "No se pudo generar un CAPTCHA"
+msgstr "İnsan doğrulaması (CAPTCHA) oluşturulamadı"
 
 #: src/ejabberd_service.erl:140
 msgid "Unable to register route on existing local domain"
-msgstr "No se ha podido registrar la ruta en este dominio local existente"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:178 src/ejabberd_web_admin.erl:190
 #: src/ejabberd_web_admin.erl:210 src/ejabberd_web_admin.erl:222
 #: src/mod_stream_mgmt.erl:142
 msgid "Unauthorized"
-msgstr "No autorizado"
+msgstr "Yetkisiz"
 
 #: src/mod_configure.erl:776 src/mod_configure.erl:1498
 #: src/mod_announce.erl:493
 msgid "Unexpected action"
-msgstr "Acción inesperada"
+msgstr ""
 
 #: src/mod_register.erl:400
 msgid "Unexpected error condition: ~p"
-msgstr "Condición de error inesperada: ~p"
+msgstr ""
 
 #: src/mod_register_web.erl:525
 msgid "Unregister"
-msgstr "Borrar"
+msgstr "Kaydı Sil"
 
 #: src/mod_register_web.erl:219 src/mod_register_web.erl:497
 #: src/mod_register_web.erl:505
+#, fuzzy
 msgid "Unregister an XMPP account"
-msgstr "Borrar una cuenta XMPP"
+msgstr "Bir XMPP hesabı kaydı sil"
 
 #: src/ejabberd_web_admin.erl:1417
 msgid "Unselect All"
-msgstr "Deseleccionar todo"
+msgstr ""
 
 #: src/mod_mam.erl:688
 msgid "Unsupported <index/> element"
-msgstr "Elemento <index/> no soportado"
+msgstr ""
 
 #: src/mod_stream_mgmt.erl:369
 msgid "Unsupported version"
-msgstr "Versión no soportada"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:1102 src/ejabberd_web_admin.erl:1446
 #: src/ejabberd_web_admin.erl:1809
 msgid "Update"
-msgstr "Actualizar"
+msgstr "GÜncelle"
 
 #: src/mod_announce.erl:621
 msgid "Update message of the day (don't send)"
-msgstr "Actualizar mensaje del dia, pero no enviarlo"
+msgstr "Günün mesajını güncelle (gönderme)"
 
 #: src/mod_announce.erl:623
 msgid "Update message of the day on all hosts (don't send)"
-msgstr "Actualizar el mensaje del día en todos los dominos (pero no enviarlo)"
+msgstr "Tüm sunuculardaki günün mesajını güncelle (gönderme)"
 
 #: src/ejabberd_web_admin.erl:1439
 msgid "Update plan"
-msgstr "Plan de actualización"
+msgstr "Planı güncelle"
 
 #: src/ejabberd_web_admin.erl:1441
 msgid "Update script"
-msgstr "Script de actualización"
+msgstr "Betiği Güncelle"
 
 #: src/ejabberd_web_admin.erl:1428
+#, fuzzy
 msgid "Update ~p"
-msgstr "Actualizar ~p"
+msgstr "Güncelle "
 
 #: src/ejabberd_web_admin.erl:1364
 msgid "Uptime:"
-msgstr "Tiempo desde el inicio:"
+msgstr "Hizmet Süresi:"
 
 #: src/mod_vcard_mnesia.erl:99 src/mod_vcard_sql.erl:156
 #: src/ejabberd_web_admin.erl:652 src/ejabberd_web_admin.erl:708
 #: src/mod_register.erl:234 src/mod_vcard_ldap.erl:326
 msgid "User"
-msgstr "Usuario"
+msgstr "Kullanıcı"
 
 #: src/ejabberd_oauth.erl:499
 msgid "User (jid)"
-msgstr "Usuario (jid)"
+msgstr ""
 
 #: deps/xmpp/src/mam_query.erl:316 deps/xmpp/src/muc_request.erl:354
 msgid "User JID"
-msgstr "Jabber ID del usuario"
+msgstr "Kullanıcı JID"
 
 #: src/mod_configure.erl:298 src/mod_configure.erl:493
 msgid "User Management"
-msgstr "Administración de usuarios"
+msgstr "Kullanıcı Yönetimi"
 
 #: src/mod_register.erl:396
 msgid "User already exists"
-msgstr "El usuario ya existe"
+msgstr ""
 
 #: src/ejabberd_sm.erl:214
 msgid "User removed"
-msgstr "Usuario eliminado"
+msgstr ""
 
 #: src/mod_push.erl:339 src/ejabberd_sm.erl:202 src/mod_sic.erl:93
+#, fuzzy
 msgid "User session not found"
-msgstr "Sesión de usuario no encontrada"
+msgstr "Düğüm bulunamadı"
 
 #: src/mod_stream_mgmt.erl:614 src/mod_stream_mgmt.erl:637
 msgid "User session terminated"
-msgstr "Sesión de usuario terminada"
+msgstr ""
 
 #: src/ejabberd_web_admin.erl:933
+#, fuzzy
 msgid "User ~ts"
-msgstr "Usuario ~ts"
+msgstr "Kullanıcı "
 
 #: src/mod_register_web.erl:262 src/mod_register_web.erl:402
 #: src/mod_register_web.erl:513
 msgid "Username:"
-msgstr "Nombre de usuario:"
+msgstr "Kullanıcı adı:"
 
 #: src/ejabberd_web_admin.erl:447 src/ejabberd_web_admin.erl:454
 #: src/ejabberd_web_admin.erl:1790
 msgid "Users"
-msgstr "Usuarios"
+msgstr "Kullanıcılar"
 
 #: src/ejabberd_web_admin.erl:475
 msgid "Users Last Activity"
-msgstr "Última actividad de los usuarios"
+msgstr "Kullanıcıların Son Aktiviteleri"
 
 #: src/mod_register.erl:388
 msgid "Users are not allowed to register accounts so quickly"
-msgstr "Los usuarios no tienen permitido crear cuentas con tanta rapidez"
+msgstr "Kullanıcıların bu kadar hızlı hesap açmalarına izin verilmiyor"
 
 #: src/mod_roster.erl:1043
 msgid "Validate"
-msgstr "Validar"
+msgstr "Geçerli"
 
 #: src/mod_pubsub.erl:900 src/mod_carboncopy.erl:104 src/mod_push.erl:321
 #: src/mod_muc_room.erl:4171 src/mod_muc_room.erl:4333
 #: src/ejabberd_captcha.erl:222
 msgid "Value 'get' of 'type' attribute is not allowed"
-msgstr "El valor 'get' del atributo 'type' no está permitido"
+msgstr ""
 
 #: src/mod_stats.erl:55 src/mod_pubsub.erl:824 src/mod_pubsub.erl:843
 #: src/mod_pubsub.erl:882 src/mod_last.erl:108 src/mod_last.erl:126
@@ -2659,499 +2693,472 @@ msgstr "El valor 'get' del atributo 'type' no está permitido"
 #: src/mod_muc_room.erl:4146 src/mod_version.erl:53 src/mod_vcard.erl:205
 #: src/mod_vcard.erl:248
 msgid "Value 'set' of 'type' attribute is not allowed"
-msgstr "El valor 'set' del atributo 'type' no está permitido"
+msgstr ""
 
 #: src/pubsub_subscription.erl:237 src/pubsub_subscription_sql.erl:202
 msgid "Value of '~s' should be boolean"
-msgstr "El valor de '~s' debería ser booleano"
+msgstr ""
 
 #: src/pubsub_subscription.erl:215 src/pubsub_subscription_sql.erl:180
 msgid "Value of '~s' should be datetime string"
-msgstr "El valor de '~s' debería ser una fecha"
+msgstr ""
 
 #: src/pubsub_subscription.erl:209 src/pubsub_subscription.erl:227
 #: src/pubsub_subscription_sql.erl:174 src/pubsub_subscription_sql.erl:192
 msgid "Value of '~s' should be integer"
-msgstr "El valor de '~s' debería ser un entero"
+msgstr ""
 
 #: src/mod_offline.erl:1075
 msgid "View Queue"
-msgstr "Ver Cola"
+msgstr ""
 
 #: src/mod_roster.erl:1172
+#, fuzzy
 msgid "View Roster"
-msgstr "Ver Lista de contactos"
+msgstr "Kontak Listesi"
 
 #: src/ejabberd_web_admin.erl:439 src/ejabberd_web_admin.erl:1818
 msgid "Virtual Hosts"
-msgstr "Dominios Virtuales"
+msgstr "Sanal Sunucuları"
 
 #: deps/xmpp/src/muc_roomconfig.erl:1851
 msgid "Visitor"
-msgstr "Visitante"
+msgstr ""
 
 #: src/mod_muc_room.erl:1235
 msgid "Visitors are not allowed to change their nicknames in this room"
-msgstr "Los visitantes no tienen permitido cambiar sus apodos en esta sala"
+msgstr ""
+"Bu odada ziyaretçilerin takma isimlerini değiştirmesine izin verilmiyor"
 
 #: src/mod_muc_room.erl:1012
 msgid "Visitors are not allowed to send messages to all occupants"
-msgstr "Los visitantes no pueden enviar mensajes a todos los ocupantes"
+msgstr ""
+"Ziyaretçilerin odadaki tüm sakinlere mesaj göndermesine izin verilmiyor"
 
 #: src/mod_muc_room.erl:4410
 msgid "Voice request"
-msgstr "Petición de voz"
+msgstr "Ses isteği"
 
 #: src/mod_muc_room.erl:1112
 msgid "Voice requests are disabled in this conference"
-msgstr "Las peticiones de voz están desactivadas en esta sala"
+msgstr "Bu konferansta ses istekleri etkisizleştirilmiş durumda."
 
 #: src/mod_muc_log.erl:470
 msgid "Wednesday"
-msgstr "Miércoles"
+msgstr "Çarşamba"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1920
+#, fuzzy
 msgid "When a new subscription is processed"
-msgstr "Cuando se procesa una nueva suscripción"
+msgstr "Üyeliklere izin verilsin mi"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1924
 msgid ""
 "When a new subscription is processed and whenever a subscriber comes online"
 msgstr ""
-"Cuando se procesa una nueva suscripción y cuando un suscriptor se conecta"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1938
 msgid "When to send the last published item"
-msgstr "Cuando enviar el último elemento publicado"
+msgstr "Son yayınlanan öğe ne zaman gönderilsin"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:546
 msgid ""
 "Whether an entity wants to receive an XMPP message body in addition to the "
 "payload format"
 msgstr ""
-"Si una entidad quiere recibir un cuerpo de mensaje XMPP adicionalmente al "
-"formato de payload"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:494
 msgid ""
 "Whether an entity wants to receive digests (aggregations) of notifications "
 "or all notifications individually"
 msgstr ""
-"Si una entidad quiere recibir resúmenes (agregados) de notificaciones o "
-"todas las notificaciones individualmente"
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:477
 msgid "Whether an entity wants to receive or disable notifications"
-msgstr "Si una entidad quiere recibir o desactivar las notificaciones"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1611
 msgid "Whether owners or publisher should receive replies to items"
-msgstr "Si dueños y publicadores deberían recibir respuestas de los elementos"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1694
 msgid "Whether the node is a leaf (default) or a collection"
-msgstr "Si el nodo es una hoja (por defecto) o una colección"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1970
 msgid "Whether to allow subscriptions"
-msgstr "Permitir subscripciones"
+msgstr "Üyeliklere izin verilsin mi"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1954
 msgid ""
 "Whether to make all subscriptions temporary, based on subscriber presence"
 msgstr ""
-"Si hacer que todas las suscripciones sean temporales, basado en la presencia "
-"del suscriptor"
 
 #: deps/xmpp/src/pubsub_node_config.erl:1793
 msgid "Whether to notify owners about new subscribers and unsubscribes"
-msgstr "Si notificar a los dueños sobre nuevas suscripciones y desuscripciones"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_node_config.erl:1405
 msgid "Who may associate leaf nodes with a collection"
-msgstr "Quien puede asociar nodos hoja con una colección"
+msgstr ""
 
 #: src/mod_register_web.erl:599
 #, fuzzy
 msgid "Wrong CAPTCHA entered"
-msgstr "Proteger la sala con CAPTCHA"
+msgstr "Odayı insan doğrulaması (captcha) korumalı hale getir"
 
 #: src/mod_register_web.erl:617
 msgid "Wrong parameters in the web formulary"
-msgstr "Parámetros incorrectos en el formulario web"
+msgstr ""
 
 #: src/mod_multicast.erl:341
 msgid "Wrong xmlns"
-msgstr "XMLNS incorrecto"
+msgstr ""
 
 #: src/mod_register_web.erl:203 src/mod_register_web.erl:211
+#, fuzzy
 msgid "XMPP Account Registration"
-msgstr "Registro de Cuenta XMPP"
+msgstr "XMPP Hesap Kaydı"
 
 #: src/ejabberd_web_admin.erl:440
 msgid "XMPP Domains"
-msgstr "Dominios XMPP"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:563
 msgid "XMPP Show Value of Away"
-msgstr "Valor 'Show' de XMPP: Ausente"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:567
 msgid "XMPP Show Value of Chat"
-msgstr "Valor 'Show' de XMPP: Charlador"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:571
 msgid "XMPP Show Value of DND (Do Not Disturb)"
-msgstr "Valor 'Show' de XMPP: DND (No Molestar)"
+msgstr ""
 
 #: deps/xmpp/src/pubsub_subscribe_options.erl:579
 msgid "XMPP Show Value of XA (Extended Away)"
-msgstr "Valor 'Show' de XMPP: XA (Ausente Extendido)"
+msgstr ""
 
 #: deps/xmpp/src/muc_roominfo.erl:908 deps/xmpp/src/muc_roomconfig.erl:1723
+#, fuzzy
 msgid "XMPP URI of Associated Publish-Subscribe Node"
-msgstr "URI XMPP del Nodo Asociado de Publicar-Subscribir"
+msgstr "ejabberd Publish-Subscribe modülü"
 
 #: src/mod_register_web.erl:146
 #, fuzzy
 msgid "XMPP account password changed."
-msgstr "Tu cuenta XMPP se ha creado correctamente."
+msgstr "XMPP hesabınız başarıyla oluşturuldu."
 
 #: src/mod_register_web.erl:118
 #, fuzzy
 msgid "XMPP account registered."
-msgstr "Registro de Cuenta XMPP"
+msgstr "XMPP Hesap Kaydı"
 
 #: src/mod_register_web.erl:131
 #, fuzzy
 msgid "XMPP account unregistered."
-msgstr "Registro de Cuenta XMPP"
+msgstr "XMPP Hesap Kaydı"
 
 #: src/mod_muc_room.erl:880
+#, fuzzy
 msgid "You are being removed from the room because of a system shutdown"
-msgstr "Estás siendo expulsado de la sala porque el sistema se va a detener"
+msgstr "sistem kapandığından dolayı atıldı"
 
 #: src/mod_mix.erl:667
+#, fuzzy
 msgid "You are not joined to the channel"
-msgstr "No has entrado en el canal"
+msgstr "Özel mesaj gönderilmesine izin verilmiyor"
 
 #: src/mod_register_web.erl:287
 #, fuzzy
 msgid "You can change your password using an XMPP client later."
-msgstr "Puedes cambiar tu contraseña después, usando un cliente XMPP."
+msgstr "Parolanızı daha sonra bir XMPP istemci kullanarak değiştirebilirsiniz."
 
 #: src/mod_muc_room.erl:2091
 msgid "You have been banned from this room"
-msgstr "Has sido bloqueado en esta sala"
+msgstr "Bu odaya girmeniz yasaklandı"
 
 #: src/mod_muc_room.erl:2072
 msgid "You have joined too many conferences"
-msgstr "Has entrado en demasiadas salas de conferencia"
+msgstr ""
 
 #: src/mod_muc.erl:1062
 msgid "You must fill in field \"Nickname\" in the form"
-msgstr "Debes rellenar el campo \"Apodo\" en el formulario"
+msgstr "Formda \"Takma isim\" alanını doldurmanız gerekiyor"
 
 #: src/mod_register.erl:231
 msgid "You need a client that supports x:data and CAPTCHA to register"
-msgstr "Necesitas un cliente con soporte de x:data y CAPTCHA para registrarte"
+msgstr ""
+"Takma isminizi kaydettirmek için x:data ve CAPTCHA destekleyen bir istemciye "
+"gereksinimiz var"
 
 #: src/mod_muc.erl:1017
 msgid "You need a client that supports x:data to register the nickname"
 msgstr ""
-"Necesitas un cliente con soporte de x:data para poder registrar el apodo"
+"Takma isminizi kaydettirmek için x:data destekleyen bir istemciye "
+"gereksinimiz var"
 
 #: src/mod_vcard.erl:451
 msgid "You need an x:data capable client to search"
-msgstr "Necesitas un cliente con soporte de x:data para poder buscar"
+msgstr ""
+"Arama yapabilmek için x:data becerisine sahip bir istemciye gereksinimiz var"
 
 #: src/mod_pubsub.erl:1563
+#, fuzzy
 msgid "You're not allowed to create nodes"
-msgstr "No tienes permitido crear nodos"
+msgstr "Özel mesaj gönderilmesine izin verilmiyor"
 
 #: src/ejabberd_c2s.erl:704 src/ejabberd_c2s.erl:860
 msgid "Your active privacy list has denied the routing of this stanza."
-msgstr "Tu lista de privacidad activa ha denegado el envío de este paquete."
+msgstr "Etkin mahremiyet listeniz bu bölümün yönlendirilmesini engelledi."
 
 #: src/mod_offline.erl:726
 msgid ""
 "Your contact offline message queue is full. The message has been discarded."
-msgstr ""
-"Tu cola de mensajes diferidos de contactos está llena. El mensaje se ha "
-"descartado."
+msgstr "Çevirim-dışı mesaj kuyruğunuz dolu. Mesajını dikkate alınmadı."
 
 #: src/ejabberd_captcha.erl:97
 msgid ""
 "Your subscription request and/or messages to ~s have been blocked. To "
 "unblock your subscription request, visit ~s"
 msgstr ""
-"Tu petición de suscripción y/o mensajes a ~s ha sido bloqueado. Para "
-"desbloquear tu petición de suscripción visita ~s"
+"~s kullanıcısına mesajlarınız engelleniyor. Durumu düzeltmek için ~s "
+"adresini ziyaret ediniz."
 
 #: src/mod_disco.erl:439
+#, fuzzy
 msgid "ejabberd"
-msgstr "ejabberd"
+msgstr "ejabberd Web Yöneticisi"
 
 #: src/mod_http_upload.erl:751
 msgid "ejabberd HTTP Upload service"
-msgstr "Servicio HTTP Upload de ejabberd"
+msgstr ""
 
 #: src/mod_muc.erl:597
 msgid "ejabberd MUC module"
-msgstr "Módulo de MUC para ejabberd"
+msgstr "ejabberd MUC modülü"
 
 #: src/mod_multicast.erl:301
 msgid "ejabberd Multicast service"
-msgstr "Servicio Multicast de ejabberd"
+msgstr ""
 
 #: src/mod_pubsub.erl:1107
 msgid "ejabberd Publish-Subscribe module"
-msgstr "Módulo de Publicar-Subscribir de ejabberd"
+msgstr "ejabberd Publish-Subscribe modülü"
 
 #: src/mod_proxy65_service.erl:181
 msgid "ejabberd SOCKS5 Bytestreams module"
-msgstr "Módulo SOCKS5 Bytestreams para ejabberd"
+msgstr "ejabberd SOCKS5 Bytestreams modülü"
 
 #: src/ejabberd_web_admin.erl:293
 msgid "ejabberd Web Admin"
-msgstr "ejabberd Web Admin"
+msgstr "ejabberd Web Yöneticisi"
 
 #: src/mod_vcard.erl:254
 msgid "ejabberd vCard module"
-msgstr "Módulo vCard para ejabberd"
+msgstr "ejabberd vCard modülü"
 
 #: src/mod_muc_log.erl:387 src/mod_muc_log.erl:390
 msgid "has been banned"
-msgstr "ha sido bloqueado"
+msgstr "odaya girmesi yasaklandı"
 
 #: src/mod_muc_log.erl:394 src/mod_muc_log.erl:397 src/ejabberd_sm.erl:456
 msgid "has been kicked"
-msgstr "ha sido expulsado"
+msgstr "odadan atıldı"
 
 #: src/mod_muc_log.erl:412
 msgid "has been kicked because of a system shutdown"
-msgstr "ha sido expulsado porque el sistema se va a detener"
+msgstr "sistem kapandığından dolayı atıldı"
 
 #: src/mod_muc_log.erl:402
 msgid "has been kicked because of an affiliation change"
-msgstr "ha sido expulsado por un cambio de su afiliación"
+msgstr "ilişki değişikliğinden dolayı atıldı"
 
 #: src/mod_muc_log.erl:407
 msgid "has been kicked because the room has been changed to members-only"
-msgstr "ha sido expulsado porque la sala es ahora solo para miembros"
+msgstr "oda üyelere-özel hale getirildiğinden dolayı atıldı"
 
 #: src/mod_muc_log.erl:417
 msgid "is now known as"
-msgstr "se cambia el nombre a"
+msgstr "isim değiştirdi :"
 
 #: src/mod_muc_log.erl:377
 msgid "joins the room"
-msgstr "entra en la sala"
+msgstr "odaya katıldı"
 
 #: src/mod_muc_log.erl:380 src/mod_muc_log.erl:383
 msgid "leaves the room"
-msgstr "sale de la sala"
+msgstr "odadan ayrıldı"
 
 #: src/mod_muc_room.erl:4389
 msgid "private, "
-msgstr "privado, "
+msgstr "özel"
 
 #: src/mod_muc_room.erl:4486
 msgid "the password is"
-msgstr "la contraseña es"
+msgstr "parola :"
 
 #: src/mod_vcard.erl:582
 msgid "vCard User Search"
-msgstr "Búsqueda de vCard de usuarios"
+msgstr "vCard Kullanıcı Araması"
 
 #: src/mod_muc_room.erl:4479
+#, fuzzy
 msgid "~s invites you to the room ~s"
-msgstr "~s te invita a la sala ~s"
+msgstr "~s sizi ~s odasına davet ediyor"
 
 #: src/mod_offline.erl:991
+#, fuzzy
 msgid "~ts's Offline Messages Queue"
-msgstr "Cola de mensajes diferidos de ~ts"
+msgstr "~s Kullanıcısının Mesaj Kuyruğu"
 
-#~ msgid "The captcha you entered is wrong"
-#~ msgstr "El CAPTCHA que has introducido es erróneo"
-
+#, fuzzy
 #~ msgid "The password of your XMPP account was successfully changed."
-#~ msgstr "La contraseña de tu cuenta XMPP se ha cambiado correctamente."
+#~ msgstr "XMPP hesabınızın parolası başarıyla değiştirildi."
 
 #~ msgid "There was an error creating the account: "
-#~ msgstr "Hubo uno error al crear la cuenta: "
+#~ msgstr "Hesap oluşturulurken bir hata oluştu:"
 
 #~ msgid "There was an error deleting the account: "
-#~ msgstr "Hubo un error borrando la cuenta: "
+#~ msgstr "Hesabın silinmesi sırasında bir hata oluştu:"
 
+#, fuzzy
 #~ msgid "Your XMPP account was successfully deleted."
-#~ msgstr "Tu cuenta XMPP se ha borrado correctamente."
+#~ msgstr "XMPP hesabınız başarıyla silindi."
 
-#~ msgid ""
-#~ "It is not allowed to send error messages to the room. The participant "
-#~ "(~ts) has sent an error message (~ts) and got kicked from the room"
-#~ msgstr ""
-#~ "No está permitido enviar mensajes de error a la sala. Este participante "
-#~ "(~ts) ha enviado un mensaje de error (~ts) y fue expulsado de la sala"
-
+#, fuzzy
 #~ msgid "Virtual Hosting"
-#~ msgstr "Dominios Virtuales"
+#~ msgstr "Sanal Sunucuları"
 
 #~ msgid "Choose modules to stop"
-#~ msgstr "Selecciona módulos a detener"
+#~ msgstr "Durdurulacak modülleri seçiniz"
 
+#, fuzzy
 #~ msgid "Empty password"
-#~ msgstr "Contraseña vacía"
+#~ msgstr "parola :"
 
 #~ msgid "Enter list of {Module, [Options]}"
-#~ msgstr "Introduce lista de {módulo, [opciones]}"
+#~ msgstr "{Module, [Options]} listesi giriniz"
 
 #~ msgid "List of modules to start"
-#~ msgstr "Lista de módulos a iniciar"
+#~ msgstr "Başlatılacak modüllerin listesi"
 
 #~ msgid "Modules"
-#~ msgstr "Módulos"
-
-#~ msgid "No 'modules' found in data form"
-#~ msgstr "No se encontró 'modules' en el formulario de datos"
-
-#~ msgid "Parse failed"
-#~ msgstr "El procesado falló"
-
-#~ msgid "Roster module has failed"
-#~ msgstr "El módulo Roster ha fallado"
-
-#~ msgid "Scan failed"
-#~ msgstr "El escaneo ha fallado"
-
-#~ msgid "Start Modules"
-#~ msgstr "Iniciar módulos"
-
-#~ msgid "Start Modules at "
-#~ msgstr "Iniciar módulos en "
-
-#~ msgid "Stop Modules"
-#~ msgstr "Detener módulos"
-
-#~ msgid "Stop Modules at "
-#~ msgstr "Detener módulos en "
+#~ msgstr "Modüller"
 
 #, fuzzy
 #~ msgid "Previous session PID not found"
-#~ msgstr "Sesión de usuario no encontrada"
+#~ msgstr "Düğüm bulunamadı"
 
-#~ msgid "Server connections to local subdomains are forbidden"
-#~ msgstr "Conexiones de servidor a subdominios locales están prohibidas"
+#~ msgid "Start Modules"
+#~ msgstr "Modülleri Başlat"
+
+#~ msgid "Start Modules at "
+#~ msgstr "Modülleri Başlat : "
+
+#~ msgid "Stop Modules"
+#~ msgstr "Modülleri Durdur"
+
+#~ msgid "Stop Modules at "
+#~ msgstr "Modülleri Durdur : "
 
 #~ msgid "Access Configuration"
-#~ msgstr "Configuración de accesos"
+#~ msgstr "Erişim Ayarları"
 
 #~ msgid "Access Control List Configuration"
-#~ msgstr "Configuración de la Lista de Control de Acceso"
+#~ msgstr "Erişim Kontrol Listelerinin Ayarlanması (ACL)"
 
 #~ msgid "Access Control Lists"
-#~ msgstr "Listas de Control de Acceso"
+#~ msgstr "Erişim Kontrol Listeleri (ACL)"
 
 #~ msgid "IP"
 #~ msgstr "IP"
 
 #~ msgid "Listened Ports"
-#~ msgstr "Puertos de escucha"
+#~ msgstr "Dinlenen Kapılar (Portlar)"
 
 #~ msgid "Listened Ports at "
-#~ msgstr "Puertos de escucha en "
+#~ msgstr "Dinlenen Kapılar (Portlar) : "
 
 #~ msgid "Module"
-#~ msgstr "Módulo"
+#~ msgstr "Modül"
 
+#, fuzzy
 #~ msgid "Modules at ~p"
-#~ msgstr "Módulos en ~p"
-
-#~ msgid "No 'access' found in data form"
-#~ msgstr "No se encontró 'access' en el formulario de datos"
-
-#~ msgid "No 'acls' found in data form"
-#~ msgstr "No se encontró 'acls' en el formulario de datos"
+#~ msgstr "Modüller : "
 
 #~ msgid "Options"
-#~ msgstr "Opciones"
+#~ msgstr "Seçenekler"
 
 #~ msgid "Port"
-#~ msgstr "Puerto"
+#~ msgstr "Kapı (Port)"
 
 #~ msgid "Protocol"
-#~ msgstr "Protocolo"
-
-#~ msgid "Publishing items to collection node is not allowed"
-#~ msgstr "Publicar elementos en un nodo de colección no está permitido"
+#~ msgstr "Protokol"
 
 #~ msgid "Raw"
-#~ msgstr "Crudo"
+#~ msgstr "Ham"
 
 #~ msgid "Start"
-#~ msgstr "Iniciar"
-
-#~ msgid "User part of JID in 'from' is empty"
-#~ msgstr "La parte de usuario del JID en 'from' está vacía"
+#~ msgstr "Başlat"
 
 #~ msgid "~s access rule configuration"
-#~ msgstr "Configuración de las Regla de Acceso ~s"
+#~ msgstr "~s erişim kuralları ayarları"
 
 #~ msgid "Access rules"
-#~ msgstr "Reglas de acceso"
+#~ msgstr "Erişim kuralları"
 
 #~ msgid "Connections parameters"
-#~ msgstr "Parámetros de conexiones"
+#~ msgstr "Bağlantı parametreleri"
 
 #~ msgid "Encoding for server ~b"
-#~ msgstr "Codificación del servidor ~b"
+#~ msgstr "Sunucu için kodlama ~b"
 
 #~ msgid ""
 #~ "Enter username and encodings you wish to use for connecting to IRC "
 #~ "servers.  Press 'Next' to get more fields to fill in.  Press 'Complete' "
 #~ "to save settings."
 #~ msgstr ""
-#~ "Introduce el nombre de usuario y codificaciones de carácteres que quieras "
-#~ "usar al conectar en los servidores de IRC. Pulsa Siguiente para conseguir "
-#~ "más campos en el formulario. Pulsa Completar para guardar las opciones."
+#~ "IRC sunuculara bağlanmak için kullanmak istediğiniz kullanıcı isimleri ve "
+#~ "kodlamaları giriniz.  'İleri' tuşuna basınca karşınıza dolduracak daha "
+#~ "fazla alan çıkacak. 'Tamamla' tuşuna basarak ayarları kaydedin."
 
 #~ msgid ""
 #~ "Enter username, encodings, ports and passwords you wish to use for "
 #~ "connecting to IRC servers"
 #~ msgstr ""
-#~ "Introduce el nombre de usuario, codificaciones de carácteres, puertos y "
-#~ "contraseñas que quieras usar al conectar en los servidores de IRC"
+#~ "IRC sunuculara bağlanmak için kullanmak istediğiniz kullanıcı ismi, "
+#~ "kodlamalar, kapılar (portlar) ve parolaları giriniz"
 
 #~ msgid ""
 #~ "Example: [{\"irc.lucky.net\", \"koi8-r\", 6667, \"secret\"}, {\"vendetta."
 #~ "fef.net\", \"iso8859-1\", 7000}, {\"irc.sometestserver.net\", \"utf-8\"}]."
 #~ msgstr ""
-#~ "Ejemplo: [{\"irc.lucky.net\", \"koi8-r\", 6667, \"secret\"}, {\"vendetta."
-#~ "fef.net\", \"iso8859-1\", 7000}, {\"irc.sometestserver.net\", \"utf-8\"}]."
-
-#~ msgid "Failed to parse chanserv"
-#~ msgstr "Falló la comprensión de chanserv"
+#~ "Örnek: [{\"irc.lucky.net\", \"koi8-r\", 6667, \"gizli\"}, {\"vendetta.fef."
+#~ "net\", \"iso8859-1\", 7000}], {\"irc.sometestserver.net\", \"utf-8\"}]"
 
 #~ msgid "IRC Transport"
-#~ msgstr "Transporte de IRC"
+#~ msgstr "IRC Nakli (Transport)"
 
 #~ msgid "IRC Username"
-#~ msgstr "Nombre de usuario en IRC"
+#~ msgstr "IRC Kullanıcı İsmi"
 
 #~ msgid "IRC channel (don't put the first #)"
-#~ msgstr "Canal IRC (no pongas el # del principio)"
+#~ msgstr "IRC kanalı (ilk # işaretini koymayın)"
 
+#, fuzzy
 #~ msgid "IRC connection not found"
-#~ msgstr "Conexión IRC no encontrada"
+#~ msgstr "Düğüm bulunamadı"
 
 #~ msgid "IRC server"
-#~ msgstr "Servidor IRC"
+#~ msgstr "IRC sunucusu"
 
 #~ msgid "IRC settings"
-#~ msgstr "Opciones de IRC"
+#~ msgstr "IRC ayarları"
 
 #~ msgid "IRC username"
-#~ msgstr "Nombre de usuario en IRC"
+#~ msgstr "IRC kullanıcı ismi"
 
 #~ msgid ""
 #~ "If you want to specify different ports, passwords, encodings for IRC "
@@ -3159,137 +3166,91 @@ msgstr "Cola de mensajes diferidos de ~ts"
 #~ "\", port, \"password\"}'.  By default this service use \"~s\" encoding, "
 #~ "port ~p, empty password."
 #~ msgstr ""
-#~ "Si quieres especificar distintos codificaciones de carácteres, "
-#~ "contraseñas o puertos para cada servidor IRC rellena esta lista con "
-#~ "valores en el formato '{\"servidor irc\", \"codificación\", \"puerto\", "
-#~ "\"contrasela\"}'.  Este servicio usa por defecto la codificación \"~s\", "
-#~ "puerto ~p, sin contraseña."
-
-#~ msgid "Improper 'from' attribute"
-#~ msgstr "Atributo 'from' impropio"
-
-#~ msgid "Improper 'to' attribute"
-#~ msgstr "Atributo 'to' impropio"
-
-#~ msgid "Incorrect value in data form"
-#~ msgstr "Valor incorrecto en el formulario de datos"
-
-#~ msgid "Incorrect value of 'type' attribute"
-#~ msgstr "Valor incorrecto del atributo 'type'"
+#~ "IRC sunucuları için farklı kapılar (portlar), parolalar, kodlamalar "
+#~ "belirtmek istiyorsanız, '{\"irc sunucusu\", \"kodlama\",\"kapı\",\"parola"
+#~ "\"}' biçeminde değerlerle bu listeyi doldurunuz. Öntanımlı olarak bu "
+#~ "servis \"~s\" kodlamasını, ~p \"kapısını\", \"boş\" parolasını kullanıyor."
 
 #~ msgid "Join IRC channel"
-#~ msgstr "Entrar en canal IRC"
+#~ msgstr "IRC kanalına katıl"
 
 #~ msgid "Join the IRC channel here."
-#~ msgstr "Entrar en el canal de IRC aquí"
+#~ msgstr "Buradaki IRC kanalına katıl."
 
 #~ msgid "Join the IRC channel in this Jabber ID: ~s"
-#~ msgstr "Entra en el canal de IRC en esta dirección Jabber: ~s"
-
-#~ msgid "Missing 'channel' or 'server' in the data form"
-#~ msgstr "No se encuentra 'channel' o 'server' en el formulario de datos"
-
-#~ msgid "Missing 'from' attribute"
-#~ msgstr "No se encuentra el atributo 'from'"
-
-#~ msgid "Missing 'to' attribute"
-#~ msgstr "No se encuentra el atributo 'to'"
-
-#~ msgid "Parse error"
-#~ msgstr "Error en el procesado"
+#~ msgstr "IRC kanalına bu Jabber ID'si ile katıl: ~s"
 
 #~ msgid "Password ~b"
-#~ msgstr "Contraseña ~b"
+#~ msgstr "Parola ~b"
 
+#, fuzzy
 #~ msgid "Permanent rooms"
-#~ msgstr "Salas permanentes"
+#~ msgstr "odadan ayrıldı"
 
 #~ msgid "Port ~b"
-#~ msgstr "Puerto ~b"
+#~ msgstr "Kapı (Port) ~b"
 
+#, fuzzy
 #~ msgid "Registered nicknames"
-#~ msgstr "Apodos registrados"
+#~ msgstr "Kayıtlı Kullanıcılar"
 
 #~ msgid "Registration in mod_irc for "
-#~ msgstr "Registro en mod_irc para"
-
-#~ msgid "SASL negotiation is not allowed in this state"
-#~ msgstr "No está permitida la negociación SASL en este estado"
-
-#~ msgid "Scan error"
-#~ msgstr "Error de escaneo"
-
-#~ msgid "Server Connect Failed"
-#~ msgstr "Conexión al Servidor Fallida"
+#~ msgstr "mod_irc'ye kayıt : "
 
 #~ msgid "Server ~b"
-#~ msgstr "Servidor ~b"
+#~ msgstr "Sunucu ~b"
 
-#~ msgid "Too long value of 'xml:lang' attribute"
-#~ msgstr "Valor demasiado largo para el atributo 'xml:lang'"
-
-#~ msgid "Too many users registered"
-#~ msgstr "Demasiados usuarios registrados"
-
+#, fuzzy
 #~ msgid "Use of STARTTLS forbidden"
-#~ msgstr "Prohibido el uso de STARTTLS"
+#~ msgstr "STARTTLS kullanımı gereklidir"
 
 #~ msgid "Use of STARTTLS required"
-#~ msgstr "Es obligatorio usar STARTTLS"
+#~ msgstr "STARTTLS kullanımı gereklidir"
 
 #~ msgid "You need an x:data capable client to configure mod_irc settings"
 #~ msgstr ""
-#~ "Necesitas un cliente con soporte de x:data para configurar las opciones "
-#~ "de mod_irc"
+#~ "mod_irc ayarlarını düzenlemek için x:data becerisine sahip bir istemciye "
+#~ "gereksinimiz var"
 
 #~ msgid "ejabberd IRC module"
-#~ msgstr "Módulo de IRC para ejabberd"
+#~ msgstr "ejabberd IRC modülü"
 
+#~ msgid "No resource provided"
+#~ msgstr "Hiç kaynak sağlanmadı"
+
+#, fuzzy
 #~ msgid "Server"
-#~ msgstr "Servidor"
-
-#~ msgid "Please specify file size."
-#~ msgstr "Por favor especifica el tamaño del  fichero."
-
-#~ msgid "Please specify file name."
-#~ msgstr "Por favor especifica el nombre del fichero."
-
-#~ msgid "This IP address is blacklisted in ~s"
-#~ msgstr "Esta dirección IP está en la lista negra en ~s"
-
-#~ msgid "Empty Rooms"
-#~ msgstr "Salas vacías"
+#~ msgstr "Sunucu:"
 
 #~ msgid "Jabber ID ~s is invalid"
-#~ msgstr "El Jabber ID ~s no es válido"
+#~ msgstr "Jabber ID ~s geçersiz"
 
 #~ msgid "Invalid affiliation: ~s"
-#~ msgstr "Afiliación no válida: ~s"
+#~ msgstr "Geçersiz ilişki: ~s"
 
 #~ msgid "You need an x:data capable client to configure room"
-#~ msgstr "Necesitas un cliente con soporte de x:data para configurar la sala"
+#~ msgstr ""
+#~ "Odayı ayarlamak için x:data becerisine sahip bir istemciye gereksinimiz "
+#~ "var"
 
 #~ msgid "Outgoing s2s Servers:"
-#~ msgstr "Servidores S2S salientes:"
+#~ msgstr "Giden s2s Sunucuları"
 
 #~ msgid "Delete"
-#~ msgstr "Eliminar"
+#~ msgstr "Sil"
 
 #~ msgid ""
 #~ "This participant is kicked from the room because he sent an error message"
-#~ msgstr ""
-#~ "Este participante ha sido expulsado de la sala porque envió un mensaje de "
-#~ "error"
+#~ msgstr "Bu katılımcı bir hata mesajı gönderdiği için odadan atıldı"
 
 #~ msgid ""
 #~ "This participant is kicked from the room because he sent an error message "
 #~ "to another participant"
 #~ msgstr ""
-#~ "Este participante ha sido expulsado de la sala porque envió un mensaje de "
-#~ "error a otro participante"
+#~ "Bu katılımcı başka bir katılımcıya bir hata mesajı gönderdiği için odadan "
+#~ "atıldı"
 
 #~ msgid ""
 #~ "This participant is kicked from the room because he sent an error presence"
 #~ msgstr ""
-#~ "Este participante ha sido expulsado de la sala porque envió una presencia "
-#~ "de error"
+#~ "Bu katılımcı bir hata varlığı (presence) gönderdiği için odadan atıldı"
